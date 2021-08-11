@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: d84b576871bc04e49b21b0e64961eb3c
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 811036173261186274
+    second: 02.001|lap mfbAction
+  - first:
+      74: 4744904882833596609
+    second: 02.001|Paint+Brush+2Action.001
+  - first:
+      74: -90666204885287408
+    second: 02.001|sealant fAction
+  - first:
+      74: 6563110142907432021
+    second: 02.001|sealant fAction.001
+  - first:
+      74: -3373585602101675750
+    second: 03|lap mfbAction
+  - first:
+      74: 3910635308536541245
+    second: 03|Paint+Brush+2Action.001
+  - first:
+      74: 8091611520926425427
+    second: 03|sealant fAction
+  - first:
+      74: 2528372650261931051
+    second: 03|sealant fAction.001
+  - first:
+      74: -1587163072616421413
+    second: 1.001|lap mfbAction
+  - first:
+      74: -2701275451335326565
+    second: 1.001|Paint+Brush+2Action.001
+  - first:
+      74: -8357969766480396406
+    second: 1.001|sealant fAction
+  - first:
+      74: 2935128729854482988
+    second: 1.001|sealant fAction.001
+  - first:
+      74: 3339160364412946924
+    second: 2.001|lap mfbAction
+  - first:
+      74: 4074604599141311250
+    second: 2.001|Paint+Brush+2Action.001
+  - first:
+      74: -7335273712607299746
+    second: 2.001|sealant fAction
+  - first:
+      74: 850734454077405868
+    second: 2.001|sealant fAction.001
+  - first:
+      74: 3105737741677911086
+    second: 1|lap mfbAction
+  - first:
+      74: 6990691779546910947
+    second: 1|Paint+Brush+2Action.001
+  - first:
+      74: 1151040659024758600
+    second: 1|sealant fAction
+  - first:
+      74: -7887525822121159748
+    second: 1|sealant fAction.001
+  - first:
+      74: -1074808417687629483
+    second: 1.002|lap mfbAction
+  - first:
+      74: -3810873494762524516
+    second: 1.002|Paint+Brush+2Action.001
+  - first:
+      74: 435339033835263683
+    second: 1.002|sealant fAction
+  - first:
+      74: 571616032401665226
+    second: 1.002|sealant fAction.001
+  - first:
+      74: 1978933727254824256
+    second: sealant f|lap mfbAction
+  - first:
+      74: 8111883154793957521
+    second: sealant f|Paint+Brush+2Action.001
+  - first:
+      74: 6059100519710434131
+    second: sealant f|sealant fAction
+  - first:
+      74: 2830750216841947590
+    second: sealant f|sealant fAction.001
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

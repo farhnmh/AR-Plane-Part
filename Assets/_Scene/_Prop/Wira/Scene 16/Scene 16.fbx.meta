@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 8c00a3f9b341bfc4aa2cb38b69b34d95
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -4958533517716224889
+    second: 1|6Action.002
+  - first:
+      74: 7785015484342638609
+    second: 1|7Action.001
+  - first:
+      74: -9048902779773141262
+    second: 1|8Action.002
+  - first:
+      74: 8276783615146677435
+    second: 1|OilerAction
+  - first:
+      74: -4834116455633122664
+    second: 1|OilerAction.001
+  - first:
+      74: 7757612341586490106
+    second: 2|6Action.002
+  - first:
+      74: 2153966061049293107
+    second: 2|7Action.001
+  - first:
+      74: -214154309000550452
+    second: 2|8Action.002
+  - first:
+      74: 870397121162187075
+    second: 2|OilerAction
+  - first:
+      74: 5131629867287091270
+    second: 2|OilerAction.001
+  - first:
+      74: -4410192898574242622
+    second: 3|6Action.002
+  - first:
+      74: -4994630031237939401
+    second: 3|7Action.001
+  - first:
+      74: -1852112981922292536
+    second: 3|8Action.002
+  - first:
+      74: -7730785814975442306
+    second: 3|OilerAction
+  - first:
+      74: -2542244034688061863
+    second: 3|OilerAction.001
+  - first:
+      74: -2156839526562818754
+    second: 4|6Action.002
+  - first:
+      74: -4873706804893540680
+    second: 4|7Action.001
+  - first:
+      74: 1477139221044716067
+    second: 4|8Action.002
+  - first:
+      74: -6120467285219313283
+    second: 4|OilerAction
+  - first:
+      74: -7137360288871284280
+    second: 4|OilerAction.001
+  - first:
+      74: 3801564978049909619
+    second: 6|6Action.002
+  - first:
+      74: 5266908538042489313
+    second: 6|7Action.001
+  - first:
+      74: -8171742646940533719
+    second: 6|8Action.002
+  - first:
+      74: -5588437793041431871
+    second: 6|OilerAction
+  - first:
+      74: -4972812929452081192
+    second: 6|OilerAction.001
+  - first:
+      74: -451671907792489930
+    second: 8|6Action.002
+  - first:
+      74: -306705375054161082
+    second: 8|7Action.001
+  - first:
+      74: -1172186209422710264
+    second: 8|8Action.002
+  - first:
+      74: 6335655372601973115
+    second: 8|OilerAction
+  - first:
+      74: 1071521501461935753
+    second: 8|OilerAction.001
+  - first:
+      74: 2888209900458101558
+    second: 7|6Action.002
+  - first:
+      74: 5936788888821047192
+    second: 7|7Action.001
+  - first:
+      74: 8639848443693970857
+    second: 7|8Action.002
+  - first:
+      74: -7214380588186093743
+    second: 7|OilerAction
+  - first:
+      74: -8445034957000029669
+    second: 7|OilerAction.001
+  - first:
+      74: -6960243301781655992
+    second: Oiler|6Action.002
+  - first:
+      74: 3568484356591795580
+    second: Oiler|7Action.001
+  - first:
+      74: -41848173508993840
+    second: Oiler|8Action.002
+  - first:
+      74: 1056836452483629999
+    second: Oiler|OilerAction
+  - first:
+      74: -3172089351237899291
+    second: Oiler|OilerAction.001
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

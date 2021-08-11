@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 2447c651e8a94dd44a7ccbd2a0df7e05
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 8276783615146677435
+    second: 1|OilerAction
+  - first:
+      74: 6733269496514150675
+    second: 1|Paint+Brush+2Action
+  - first:
+      74: 870397121162187075
+    second: 2|OilerAction
+  - first:
+      74: 896081849013635805
+    second: 2|Paint+Brush+2Action
+  - first:
+      74: -7730785814975442306
+    second: 3|OilerAction
+  - first:
+      74: -7189053967855348920
+    second: 3|Paint+Brush+2Action
+  - first:
+      74: -4786914546117697507
+    second: slongsong|OilerAction
+  - first:
+      74: 1775334884353901544
+    second: slongsong|Paint+Brush+2Action
+  - first:
+      74: 6568978673773238508
+    second: 1.001|OilerAction
+  - first:
+      74: 8686418659284211896
+    second: 1.001|Paint+Brush+2Action
+  - first:
+      74: -1135987748348419842
+    second: 1.007|OilerAction
+  - first:
+      74: -5514610887884501305
+    second: 1.007|Paint+Brush+2Action
+  - first:
+      74: -4475514168910627705
+    second: 1.006|OilerAction
+  - first:
+      74: -4316189081533436298
+    second: 1.006|Paint+Brush+2Action
+  - first:
+      74: -9162369279023434742
+    second: 1.002|OilerAction
+  - first:
+      74: 4735465306782947160
+    second: 1.002|Paint+Brush+2Action
+  - first:
+      74: 3665972567438831445
+    second: 1.003|OilerAction
+  - first:
+      74: 5241097995093282725
+    second: 1.003|Paint+Brush+2Action
+  - first:
+      74: 7878250448190093773
+    second: 1.004|OilerAction
+  - first:
+      74: 6821068709953095385
+    second: 1.004|Paint+Brush+2Action
+  - first:
+      74: 5091545661035258788
+    second: 1.005|OilerAction
+  - first:
+      74: 9002263794610509640
+    second: 1.005|Paint+Brush+2Action
+  - first:
+      74: 9041588609910584002
+    second: 2.001|OilerAction
+  - first:
+      74: -8422066913538055913
+    second: 2.001|Paint+Brush+2Action
+  - first:
+      74: 2069947349911749578
+    second: 1.008|OilerAction
+  - first:
+      74: -8471305089869722444
+    second: 1.008|Paint+Brush+2Action
+  - first:
+      74: 1056836452483629999
+    second: Oiler|OilerAction
+  - first:
+      74: 2104742461616408782
+    second: Oiler|Paint+Brush+2Action
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
