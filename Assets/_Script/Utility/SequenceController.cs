@@ -12,7 +12,8 @@ public enum SequenceEnum
     NORMAL,
     CAUTION,
     ANIMATION,
-    NOTE
+    NOTE,
+    ADDITION
 }
 
 [Serializable]
@@ -21,6 +22,7 @@ public class SequencesData
     public string sequenceTitle;
     public SequenceEnum sequenceType;
     [TextArea(5, 20)] public string sequenceDetails;
+    [TextArea(5, 20)] public string additionDetails;
     public GameObject sequenceAnimation;
     public Button thisHyperlink;
     public UnityEvent onClickEvent;
@@ -35,8 +37,10 @@ public class SequenceController : MonoBehaviour
     public GameObject sequenceTextCaution;
     public GameObject sequenceTextAnimation;
     public GameObject sequenceTextNote;
+    public GameObject sequenceTextAddition;
     public GameObject hyperlinkButton;
     public GameObject contentContainerParent;
+    public GameObject additionContainerParent;
     public GameObject objectSpawnParent;
     public Button button;
     private int sequenceLength;
@@ -76,6 +80,11 @@ public class SequenceController : MonoBehaviour
         for (int i = 0; i < contentContainerParent.transform.childCount; i++)
         {
             Destroy(contentContainerParent.transform.GetChild(i).gameObject);
+        }
+
+        for (int i = 0; i < additionContainerParent.transform.childCount; i++)
+        {
+            Destroy(additionContainerParent.transform.GetChild(i).gameObject);
         }
 
         button = null;
@@ -149,6 +158,15 @@ public class SequenceController : MonoBehaviour
                 TextMeshProUGUI noteText = Instantiate(sequenceTextNote, contentContainerParent.transform)
                     .GetComponentInChildren<TextMeshProUGUI>();
                 noteText.text = sequencesDatas[sequenceNow].sequenceDetails;
+                break;
+            case SequenceEnum.ADDITION:
+                TextMeshProUGUI additionText = Instantiate(sequenceTextAnimation, contentContainerParent.transform)
+                    .GetComponentInChildren<TextMeshProUGUI>();
+                additionText.text = sequencesDatas[sequenceNow].sequenceDetails;
+
+                additionText = Instantiate(sequenceTextAddition, additionContainerParent.transform)
+                    .GetComponentInChildren<TextMeshProUGUI>();
+                additionText.text = sequencesDatas[sequenceNow].additionDetails;
                 break;
             default:
                 break;

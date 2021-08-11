@@ -240,7 +240,7 @@ PrefabInstance:
     - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
@@ -939,7 +939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
+  m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
@@ -987,6 +987,7 @@ RectTransform:
   - {fileID: 1548267265}
   - {fileID: 837489786}
   - {fileID: 1989736177}
+  - {fileID: 1693095888}
   - {fileID: 13414116}
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -1219,6 +1220,7 @@ MonoBehaviour:
     sequenceType: 0
     sequenceDetails: 'Before you do the assembly of the freewheel assembly, make
       sure of the following :'
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
     thisHyperlink: {fileID: 0}
     onClickEvent:
@@ -1229,6 +1231,7 @@ MonoBehaviour:
     sequenceType: 0
     sequenceDetails: Corrosion protective coating of the parts is acceptable or restored
       (paragraph 63-51)
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
     thisHyperlink: {fileID: 0}
     onClickEvent:
@@ -1250,6 +1253,7 @@ MonoBehaviour:
     sequenceType: 0
     sequenceDetails: Residual magnetism on the applicable parts is less than 3 oersteds
       or gauss anywhere on the part (BHT-ALL-SPM, Chapter 6)
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
     thisHyperlink: {fileID: 0}
     onClickEvent:
@@ -1275,6 +1279,7 @@ MonoBehaviour:
 
       USE WHITE GLOVES. SKIN ACIDS AND SKIN OIL CAN CONTAMINATE
       THE METAL SURFACE AND CAUSE CORROSION.'
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
     thisHyperlink: {fileID: 0}
     onClickEvent:
@@ -1284,6 +1289,7 @@ MonoBehaviour:
   - sequenceTitle: 2
     sequenceType: 0
     sequenceDetails: 'Assemble the support assembly as follows:'
+    additionDetails: 
     sequenceAnimation: {fileID: 2294900141618903292, guid: 5dfa6cb62c96a8d44ba44dc13d61fee6,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1296,6 +1302,7 @@ MonoBehaviour:
     sequenceDetails: a. Lubricate the outside diameter of the bearing (2, Figure
       63-76) and the bore of the aft housing assembly with lubricating oil (C-010),
       lubricating oil (C-011), or lubricating oil (C-030), as applicable
+    additionDetails: 
     sequenceAnimation: {fileID: 2448968091102848885, guid: 17c659fc70920f24abe6ee7f65c2913a,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1307,6 +1314,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: b. Position the aft housing assembly, face down on a support
       plate, on an arbor press bed.
+    additionDetails: 
     sequenceAnimation: {fileID: 6623016543248392380, guid: 2019175761f95054cb64bacdfdbe328e,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1318,6 +1326,7 @@ MonoBehaviour:
     sequenceType: 1
     sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
       OR DAMAGE TO THE PART MAY OCCUR.
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
     thisHyperlink: {fileID: 0}
     onClickEvent:
@@ -1327,6 +1336,7 @@ MonoBehaviour:
   - sequenceTitle: 2c
     sequenceType: 2
     sequenceDetails: "c. Heat the aft housing assembly to a maximum of 275\xB0F (135\xB0C)."
+    additionDetails: 
     sequenceAnimation: {fileID: 4719870391937445516, guid: 34d9f1e81763a7d448f4077b6b4137d8,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1338,6 +1348,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: d. Install the bearing into the aft housing assembly with workaid
       item No. 2, as shown in Figure 63-76.
+    additionDetails: 
     sequenceAnimation: {fileID: 5227361907198564016, guid: 2514ed9187947994494d45700d931cf8,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1348,6 +1359,7 @@ MonoBehaviour:
   - sequenceTitle: 2e
     sequenceType: 2
     sequenceDetails: e. Install the retaining ring
+    additionDetails: 
     sequenceAnimation: {fileID: 6337915289583216446, guid: fe821f9fc9fe49140b3c7f62d42c0b0c,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1359,6 +1371,7 @@ MonoBehaviour:
     sequenceType: 1
     sequenceDetails: DO NOT ALLOW SOLVENTS TO MAKE CONTACT WITH ELASTOMERIC MATERIAL
       OF THE SEAL LIPS OR DAMAGE WILL OCCUR.
+    additionDetails: 
     sequenceAnimation: {fileID: 5227361907198564016, guid: 2514ed9187947994494d45700d931cf8,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1370,6 +1383,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: f. Clean the bore of the aft housing assembly and the outer
       diameter of a new seal with MEK (C-309).
+    additionDetails: 
     sequenceAnimation: {fileID: 7875446114024994940, guid: 5c52e09c9c538664ea7f2694aa5c3acc,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1381,6 +1395,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: g. Apply a light coat of sealant (C-328) to the bore of the
       aft housing assembly and to the outer diameter of the seal.
+    additionDetails: 
     sequenceAnimation: {fileID: 8116281636308170860, guid: 0892e0c860cb33c4dbd61780657b9709,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1392,6 +1407,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: h. Put the aft housing assembly on a support plate on an arbor
       press bed.
+    additionDetails: 
     sequenceAnimation: {fileID: 1546124019540470023, guid: cfa2ba2710fcbfd4997be869cb9b98a1,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1404,6 +1420,7 @@ MonoBehaviour:
     sequenceDetails: i. Press the seal into the bore of the aft housing assembly
       with workaid item No. 2, as shown in Figure 63-76, and smooth the excess sealant
       (C-328).
+    additionDetails: 
     sequenceAnimation: {fileID: 5227361907198564016, guid: 2514ed9187947994494d45700d931cf8,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1416,6 +1433,7 @@ MonoBehaviour:
     sequenceDetails: j. Lubricate the inner race of the bearing and the mating area
       of the adapter with lubricating oil (C-010), lubricating oil (C-011), or lubricating
       oil (C-030), as applicable
+    additionDetails: 
     sequenceAnimation: {fileID: 1922745389358505245, guid: 4376acb52ea83164dace5ecad141fe02,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1427,6 +1445,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: k. Lightly coat the lips of the seal and the seal wear path
       on the adapter with grease (C-001).
+    additionDetails: 
     sequenceAnimation: {fileID: 2814618480392981075, guid: 789da01f32bffd54cbfb951875002225,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1438,6 +1457,7 @@ MonoBehaviour:
     sequenceType: 1
     sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
       OR DAMAGE TO THE PART MAY OCCUR.
+    additionDetails: 
     sequenceAnimation: {fileID: 5227361907198564016, guid: 2514ed9187947994494d45700d931cf8,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1449,6 +1469,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: "l. Heat the inner race of the bearing to a\vmaximum of 275\xB0F
       (135\xB0C)"
+    additionDetails: 
     sequenceAnimation: {fileID: 294330207273864557, guid: 9a61c6a15d2d75a4c972b0a665e767cb,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1460,6 +1481,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: m. Install workaid item No. 1 on a support plate on an arbor
       press bed.
+    additionDetails: 
     sequenceAnimation: {fileID: 7882762116354061222, guid: 95ff506181430834c82d1ef3cea37067,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1471,6 +1493,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: n. Put the adapter into position through the seal and position
       the aft housing assembly over workaid item No. 1.
+    additionDetails: 
     sequenceAnimation: {fileID: 3905476438178697483, guid: 645743f0a4efda14ea2eb208625c51c7,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1482,6 +1505,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: o. Press the adapter into the inner race of the bearing, as
       shown in Figure 63-76.
+    additionDetails: 
     sequenceAnimation: {fileID: 3342758580345030529, guid: 04ed74b179928b449ae71589fd615d3a,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1492,6 +1516,7 @@ MonoBehaviour:
   - sequenceTitle: 2p
     sequenceType: 2
     sequenceDetails: p. Lubricate the new packing (6) with assembly fluid (C-024).
+    additionDetails: 
     sequenceAnimation: {fileID: 555743519250274442, guid: bff30cde3d05d2841b2f0a9fa4711d13,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1502,6 +1527,7 @@ MonoBehaviour:
   - sequenceTitle: 2q
     sequenceType: 2
     sequenceDetails: q. Install the packing on the reducer.
+    additionDetails: 
     sequenceAnimation: {fileID: 5353776022195436994, guid: 346eee7fa4ba98f46ab02add93d37bcd,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1513,6 +1539,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: r. Install the reducer on the aft housing assembly. Torque the
       reducer T.
+    additionDetails: 
     sequenceAnimation: {fileID: 4501827184346406971, guid: c58fa91afcb38ea4abcac54359b734c8,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1523,6 +1550,7 @@ MonoBehaviour:
   - sequenceTitle: 3
     sequenceType: 0
     sequenceDetails: 'Assemble the cap assembly as follows:'
+    additionDetails: 
     sequenceAnimation: {fileID: 3342758580345030529, guid: 04ed74b179928b449ae71589fd615d3a,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1535,6 +1563,7 @@ MonoBehaviour:
     sequenceDetails: a. Lubricate the outside diameter of the bearing, Figure 63-77)
       and the bore of the cap assembly with lubricating oil (C-010), lubricating
       oil (C-011), or lubricating oil (C-030), as applicable.
+    additionDetails: 
     sequenceAnimation: {fileID: 6821443087449667239, guid: f273b7b347848a843a6a58493c2ffbd0,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1546,6 +1575,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: "b. Put the cap assembly on a support plate\von an arbor press
       bed."
+    additionDetails: 
     sequenceAnimation: {fileID: 8078347855806142790, guid: 5e520766194d87f4496f5ed5b15f9850,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1557,6 +1587,7 @@ MonoBehaviour:
     sequenceType: 1
     sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
       OR DAMAGE TO THE PART MAY OCCUR.
+    additionDetails: 
     sequenceAnimation: {fileID: 9017051485405969509, guid: 46fef0d52afb8a948b8ee7c9f68e8edd,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1567,6 +1598,7 @@ MonoBehaviour:
   - sequenceTitle: 3c
     sequenceType: 2
     sequenceDetails: "c. Heat the cap assembly to a maximum of 275\xB0F (135\xB0C)"
+    additionDetails: 
     sequenceAnimation: {fileID: 9017051485405969509, guid: 46fef0d52afb8a948b8ee7c9f68e8edd,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1578,6 +1610,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: d. Press the bearing into the cap assembly with workaid item
       No. 3, as shown in Figure 63-77.
+    additionDetails: 
     sequenceAnimation: {fileID: 5216640362429009492, guid: 99d1c8f1de3bd8b49b8ee879e8edd6f4,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1586,9 +1619,11 @@ MonoBehaviour:
         m_Calls: []
     hyperlink: 0
   - sequenceTitle: 3e
-    sequenceType: 0
+    sequenceType: 4
     sequenceDetails: 'e. For the seal Pre TB 206-95-159, install the seal in the
       cap assembly as follows:'
+    additionDetails: For the seal Pre TB 206-95-159, apply sealant. For the seal
+      Post TB 206-95-159, apply lubricating oil
     sequenceAnimation: {fileID: 9017051485405969509, guid: 46fef0d52afb8a948b8ee7c9f68e8edd,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1600,6 +1635,7 @@ MonoBehaviour:
     sequenceType: 1
     sequenceDetails: DO NOT ALLOW SOLVENTS TO MAKE CONTACT WITH ELASTOMERIC MATERIAL
       OF THE SEAL LIPS OR DAMAGE WILL OCCUR.
+    additionDetails: 
     sequenceAnimation: {fileID: 9017051485405969509, guid: 46fef0d52afb8a948b8ee7c9f68e8edd,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1611,6 +1647,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: "1. Clean the outside diameter of the new\vseal and the bore
       of the cap assembly with MEK (C-309)"
+    additionDetails: 
     sequenceAnimation: {fileID: 4309455359239867812, guid: 70801ff534a4be643802249ec90a2a0d,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1622,6 +1659,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: "2. Apply a light coat of sealant (C-328) to\vthe outer diameter
       of a new seal and the bore of the cap assembly."
+    additionDetails: 
     sequenceAnimation: {fileID: 1045331907464200942, guid: e5bcb15332f77614c95e82601b5d9477,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1633,6 +1671,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: 3. Put the cap assembly on a support plate on an arbor press
       bed.
+    additionDetails: 
     sequenceAnimation: {fileID: 3846058917987891840, guid: 62b8edb159d1c4f4181cca7029247f17,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1645,6 +1684,7 @@ MonoBehaviour:
     sequenceDetails: "4. Put the seal over the bore of the cap assembly. Put workaid
       item No. 3 over the seal and\vpress the seal into the cap assembly, as shown
       in Figure 63-77"
+    additionDetails: 
     sequenceAnimation: {fileID: 3994725151261767892, guid: 9a0eb16b85f88104ca8d6e903bb7a3ce,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1658,6 +1698,7 @@ MonoBehaviour:
       OF THE SEAL LIPS OR DAMAGE WILL OCCUR.
 
 '
+    additionDetails: 
     sequenceAnimation: {fileID: 9017051485405969509, guid: 46fef0d52afb8a948b8ee7c9f68e8edd,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1669,6 +1710,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: "5. Fill the gap at the mating line between\vthe seal outside
       diameter and the cap assembly liner with sealant."
+    additionDetails: 
     sequenceAnimation: {fileID: 2928773891828962238, guid: d01ad23d05224cd4197797920ecc2215,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1680,6 +1722,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: "6. Clean the excess sealant from the\vretaining ring groove
       in the bore of the cap assembly with MEK."
+    additionDetails: 
     sequenceAnimation: {fileID: 5923599210416409847, guid: 1751de515354ffa478e5cdc3cbac0786,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1690,6 +1733,7 @@ MonoBehaviour:
   - sequenceTitle: 3e7
     sequenceType: 2
     sequenceDetails: 7. Install the retaining ring.
+    additionDetails: 
     sequenceAnimation: {fileID: 3883556253922278836, guid: 92a7a02bc94545348b1942bfd47e7fec,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1703,6 +1747,7 @@ MonoBehaviour:
       OF THE SEAL LIPS OR DAMAGE WILL OCCUR.
 
 '
+    additionDetails: 
     sequenceAnimation: {fileID: 9017051485405969509, guid: 46fef0d52afb8a948b8ee7c9f68e8edd,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1714,6 +1759,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: 8. Overcoat the retaining ring and the face of the seal with
       sealant.
+    additionDetails: 
     sequenceAnimation: {fileID: 5497529855254188918, guid: 16201e71e7481654c848a3f2f8fedc83,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1724,6 +1770,7 @@ MonoBehaviour:
   - sequenceTitle: 4
     sequenceType: 0
     sequenceDetails: '4. Assemble the outer race shaft assembly as follows:'
+    additionDetails: 
     sequenceAnimation: {fileID: 9017051485405969509, guid: 46fef0d52afb8a948b8ee7c9f68e8edd,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1735,6 +1782,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: a. Lubricate the bore of the outer race shaft and bearing with
       lubricating oil, lubricating oil, or lubricating oil, as applicable.
+    additionDetails: 
     sequenceAnimation: {fileID: 3013995160600894058, guid: dc68b076cd5f164419eee29e020e9ea3,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1746,6 +1794,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: b. Put the outer race shaft on a support plate on an arbor press
       bed.
+    additionDetails: 
     sequenceAnimation: {fileID: 8793275558361341955, guid: b208f81ac6da6dd4c91fb8d592b8b882,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1757,6 +1806,7 @@ MonoBehaviour:
     sequenceType: 1
     sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
       OR DAMAGE TO THE PART MAY OCCUR.
+    additionDetails: 
     sequenceAnimation: {fileID: 3013995160600894058, guid: dc68b076cd5f164419eee29e020e9ea3,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1767,6 +1817,7 @@ MonoBehaviour:
   - sequenceTitle: 4c
     sequenceType: 2
     sequenceDetails: "c. Heat the outer race shaft to a maximum of 275\xB0F (135\xB0C)."
+    additionDetails: 
     sequenceAnimation: {fileID: 6088846725810257991, guid: 177c88397b4e034488780282851def46,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1778,6 +1829,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: d. Put the bearing inside the bore of the outer race shaft with
       workaid item No. 2 over the bearing.
+    additionDetails: 
     sequenceAnimation: {fileID: 8013244960291782406, guid: ddf4d326abb45cb448051d71f5929b73,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1789,6 +1841,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: "e. Press the bearing in the bore of the outer\vrace shaft with
       workaid item No. 2."
+    additionDetails: 
     sequenceAnimation: {fileID: 5223281548990719564, guid: 323b71eddd8c7eb4cb56d33a5a9861cc,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1799,6 +1852,7 @@ MonoBehaviour:
   - sequenceTitle: 4f
     sequenceType: 2
     sequenceDetails: f. Install the retaining ring.
+    additionDetails: 
     sequenceAnimation: {fileID: 4090299881555046487, guid: da7a1f493d5352442825298cac1a0fd8,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1810,6 +1864,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: g. Examine the clutch assembly to make sure that all sprags
       are correctly positioned.
+    additionDetails: 
     sequenceAnimation: {fileID: 4743991128469795447, guid: a4247d54acd77994fbc21808a3aadc06,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1821,6 +1876,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: h. Clean the clutch assembly and the mating area in the outer
       race shaft with MEK, and dry with low pressure filtered compressed air.
+    additionDetails: 
     sequenceAnimation: {fileID: 7665644651186537309, guid: 776d7b504b0f54440b16cdd47daeef56,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1832,6 +1888,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: "i. Lubricate the clutch assembly and the\vouter race shaft
       with lubricating oil, lubricating oil, or lubricating oil, as applicable"
+    additionDetails: 
     sequenceAnimation: {fileID: 6711698452728729824, guid: 1c821f2aac97c574eafc76cd44d481ff,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1844,6 +1901,7 @@ MonoBehaviour:
     sequenceDetails: MAKE SURE THE ARROW ETCHED ON THE CAGE FLANGE OF THE CLUTCH
       ASSEMBLY POINTS CLOCKWISE, AS VIEWED FROM THE OPEN END OF THE OUTER RACE SHAFT
       OR DAMAGE MAY OCCUR.
+    additionDetails: 
     sequenceAnimation: {fileID: 8793275558361341955, guid: b208f81ac6da6dd4c91fb8d592b8b882,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1855,6 +1913,7 @@ MonoBehaviour:
     sequenceType: 3
     sequenceDetails: A packing of 2.5 inches (63 mm) in diameter may be put around
       the clutch assembly to facilitate the assembly. Discard the packing after installation.
+    additionDetails: 
     sequenceAnimation: {fileID: 8793275558361341955, guid: b208f81ac6da6dd4c91fb8d592b8b882,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1867,6 +1926,7 @@ MonoBehaviour:
     sequenceDetails: "j. Hand press the clutch assembly into the\vouter race shaft.
       Once the sprags are engaged on the race of the outer race shaft, remove the
       packing and slide the clutch assembly until it bottoms out."
+    additionDetails: 
     sequenceAnimation: {fileID: 9204569076198157648, guid: 0d1de4069254a3649b7b1b5be1a0d07f,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1878,6 +1938,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: k. Lubricate the plate with lubricating oil, lubricating oil,
       or lubricating oil, as applicable
+    additionDetails: 
     sequenceAnimation: {fileID: 3054401397165238502, guid: 6399d3778bbdc13419de59be6f2afb3d,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1889,6 +1950,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: l. Install the plate in the outer race shaft with the chamfered
       outer edge next to the clutch assembly
+    additionDetails: 
     sequenceAnimation: {fileID: 1234318040330182782, guid: 54136120ffc96764f80f01346b104d5a,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1901,6 +1963,7 @@ MonoBehaviour:
     sequenceDetails: m. Lubricate the inside diameter of the outer race shaft and
       the outer race of the bearing with lubricating oil, lubricating oil, or lubricating
       oil, as applicable.
+    additionDetails: 
     sequenceAnimation: {fileID: 601719639567222976, guid: 4fba66a6545e5bb4c857648d177a3786,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1912,6 +1975,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: n. Position the outer race shaft in the chamfered inside diameter
       of workaid item No. 4 on an arbor press bed.
+    additionDetails: 
     sequenceAnimation: {fileID: 1504616331185495452, guid: de16e7895d2c8254a8039c3be0791102,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1923,6 +1987,7 @@ MonoBehaviour:
     sequenceType: 1
     sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
       OR DAMAGE TO THE PART MAY OCCUR.
+    additionDetails: 
     sequenceAnimation: {fileID: 8013244960291782406, guid: ddf4d326abb45cb448051d71f5929b73,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1933,6 +1998,7 @@ MonoBehaviour:
   - sequenceTitle: 4o
     sequenceType: 2
     sequenceDetails: "o. Heat the outer race shaft to a maximum of 275\xB0F (135\xB0C)."
+    additionDetails: 
     sequenceAnimation: {fileID: 4204512733749090581, guid: d1df4b4e331ef474da9c76ed483eecb6,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1944,6 +2010,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: p. Press the bearing into the bore of the outer race shaft with
       workaid item No. 3.
+    additionDetails: 
     sequenceAnimation: {fileID: 8871987645552214937, guid: 5cace659dd177be468950f1f70d2c217,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1954,6 +2021,7 @@ MonoBehaviour:
   - sequenceTitle: 4q
     sequenceType: 2
     sequenceDetails: q. Install the retaining ring.
+    additionDetails: 
     sequenceAnimation: {fileID: 5503116631376634975, guid: 048553d528b30aa4b95d50b12700a421,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1965,6 +2033,7 @@ MonoBehaviour:
     sequenceType: 3
     sequenceDetails: If the freewheel assembly is equipped with inner race shaft
       206-040-222-005, omit step 5
+    additionDetails: 
     sequenceAnimation: {fileID: 7665644651186537309, guid: 776d7b504b0f54440b16cdd47daeef56,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1976,6 +2045,7 @@ MonoBehaviour:
     sequenceType: 3
     sequenceDetails: Make sure that the vent valve housing 206-040-249-001 was modified
       per  instruction provided in paragraph 63-49.
+    additionDetails: 
     sequenceAnimation: {fileID: 6711698452728729824, guid: 1c821f2aac97c574eafc76cd44d481ff,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1987,6 +2057,7 @@ MonoBehaviour:
     sequenceType: 0
     sequenceDetails: 'Install the plug or the vent valve housing as applicable, as
       follows:'
+    additionDetails: 
     sequenceAnimation: {fileID: 7665644651186537309, guid: 776d7b504b0f54440b16cdd47daeef56,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -1998,6 +2069,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: a. Lubricate the new packing with assembly fluid and install
       the packing on the plug or vent valve housing, as applicable.
+    additionDetails: 
     sequenceAnimation: {fileID: 592341932996560061, guid: e76c98ca3ea0ff54096cb136d3da253a,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2009,6 +2081,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: b. Install the plug or vent valve housing, as applicable, into
       the inner race shaft.
+    additionDetails: 
     sequenceAnimation: {fileID: 8000348194904410741, guid: 67544a97899c8114282bfacf218d4532,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2019,6 +2092,7 @@ MonoBehaviour:
   - sequenceTitle: 5c
     sequenceType: 2
     sequenceDetails: c. Install the retaining ring.
+    additionDetails: 
     sequenceAnimation: {fileID: 7612850577448528859, guid: 38ac005aecfffb44fbd0dfca8b4b5c12,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2029,6 +2103,7 @@ MonoBehaviour:
   - sequenceTitle: 6
     sequenceType: 0
     sequenceDetails: 'Assemble the freewheel shaft assembly as follows:'
+    additionDetails: 
     sequenceAnimation: {fileID: 3054401397165238502, guid: 6399d3778bbdc13419de59be6f2afb3d,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2040,6 +2115,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: a. Put the inner race shaft vertically on a table with the flange
       down.
+    additionDetails: 
     sequenceAnimation: {fileID: 6941511176811133593, guid: f7d35d5de91d59f42b0c3bd0c594eeff,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2048,9 +2124,12 @@ MonoBehaviour:
         m_Calls: []
     hyperlink: 0
   - sequenceTitle: 6b
-    sequenceType: 0
+    sequenceType: 4
     sequenceDetails: 'b. For freewheel assembly Post TB 206-95-159, install the cap
       assembly on the inner race shaft as follows:'
+    additionDetails: For the seal Pre TB 206-95-159, apply a light coat of grease
+      to the seal lips. For the seal Post TB 206-95-159, apply a light coat of lubricating
+      oil to the seal lips.
     sequenceAnimation: {fileID: 601719639567222976, guid: 4fba66a6545e5bb4c857648d177a3786,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2062,6 +2141,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: 1. Lubricate all race surfaces of the inner race shaft with
       lubricating oil, lubricating oil, or lubricating oil, as applicable.
+    additionDetails: 
     sequenceAnimation: {fileID: 6764798177760551451, guid: 80ae6e888d4817b4ba0a009c18630092,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2072,6 +2152,7 @@ MonoBehaviour:
   - sequenceTitle: 6b2
     sequenceType: 2
     sequenceDetails: (2) Remove and discard the protective cap from the seal.
+    additionDetails: 
     sequenceAnimation: {fileID: 7064061537972688791, guid: 397e9bd852883d049a49f20772f3bf94,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2083,6 +2164,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: (3) Apply a light coat of lubricating oil, lubricating oil,
       or lubricating oil, as applicable, to the lips of the seal.
+    additionDetails: 
     sequenceAnimation: {fileID: 5107157301334828727, guid: 529f21e54789cfc4082917d19b278c8a,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2094,6 +2176,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: (4) Carefully lower the cap assembly over the inner race shaft
       until it bottoms out against the flange.
+    additionDetails: 
     sequenceAnimation: {fileID: 2378513817997686174, guid: f54aaba2c224a4141ab1108d61e45e64,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2105,6 +2188,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: d. Lubricate all surfaces inside the outer race shaft with lubricating
       oil, lubricating oil, or lubricating oil, as applicable.
+    additionDetails: 
     sequenceAnimation: {fileID: 8914308416842726621, guid: 08cce9e8ca147754f823863a8335b236,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2115,6 +2199,7 @@ MonoBehaviour:
   - sequenceTitle: 6e
     sequenceType: 2
     sequenceDetails: e. Insert the inner race shaft onto the outer race shaft.
+    additionDetails: 
     sequenceAnimation: {fileID: 1369956019999896444, guid: 59d43e98298912a4b8347e8b5a182a35,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2127,6 +2212,7 @@ MonoBehaviour:
     sequenceDetails: f. To facilitate the engagement of the sprag over the races
       of the inner race shaft, as you insert, rotate the outer race shaft counterclockwise.
       Keep inserting until it bottoms out.
+    additionDetails: 
     sequenceAnimation: {fileID: 1420619936261399964, guid: 77990289e7121984c85913817d352e19,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2138,6 +2224,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: g. Put the chamfered edge of workaid item No. 4 against the
       outer race shaft and position them on an arbor press bed.
+    additionDetails: 
     sequenceAnimation: {fileID: 3982361410847778760, guid: 53021a38e25afcd4ea9af376b67e54dd,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2149,6 +2236,7 @@ MonoBehaviour:
     sequenceType: 1
     sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
       OR DAMAGE TO THE PART MAY OCCUR.
+    additionDetails: 
     sequenceAnimation: {fileID: 592341932996560061, guid: e76c98ca3ea0ff54096cb136d3da253a,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2159,6 +2247,7 @@ MonoBehaviour:
   - sequenceTitle: 6h
     sequenceType: 2
     sequenceDetails: "h. Heat the outer race shaft to a maximum of 275\xB0F (135\xB0C)."
+    additionDetails: 
     sequenceAnimation: {fileID: 3620215155613753799, guid: d23629d96a5fac84284dc1774f2d4367,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2169,6 +2258,7 @@ MonoBehaviour:
   - sequenceTitle: 6i
     sequenceType: 2
     sequenceDetails: i. Press the inner race shaft into the outer race shaft.
+    additionDetails: 
     sequenceAnimation: {fileID: 6455647570852070989, guid: 4d3a68258dc641641907543c0fc2c02e,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2179,6 +2269,7 @@ MonoBehaviour:
   - sequenceTitle: 7
     sequenceType: 0
     sequenceDetails: '7. Do an operational check of the clutch assembly as follows:'
+    additionDetails: 
     sequenceAnimation: {fileID: 7612850577448528859, guid: 38ac005aecfffb44fbd0dfca8b4b5c12,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2191,6 +2282,7 @@ MonoBehaviour:
     sequenceDetails: a. Hold the flange of the inner race shaft and rotate the outer
       race shaft counterclockwise. The outer race shaft should rotate freely, showing
       the clutch assembly is unlocked.
+    additionDetails: 
     sequenceAnimation: {fileID: 7816442873811946275, guid: 9c775f9cda9ff744983df6d2032f03fd,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2203,6 +2295,7 @@ MonoBehaviour:
     sequenceDetails: b. Hold the flange of the inner race shaft and rotate the outer
       race shaft clockwise. The outer race shaft should not turn, showing the clutch
       assembly is locked.
+    additionDetails: 
     sequenceAnimation: {fileID: 6077501325064851027, guid: 18a215b10814b9f468a48a15cb4a43cc,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2215,6 +2308,7 @@ MonoBehaviour:
     sequenceDetails: c. If the clutch assembly does not operate correctly, disassemble
       the freewheel shaft assembly and the outer shaft (paragraph 63-35) to access
       the clutch assembly.
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
     thisHyperlink: {fileID: 0}
     onClickEvent:
@@ -2238,6 +2332,7 @@ MonoBehaviour:
       assembly. Possible causes are: (1) One or more sprags are installed incorrectly.
       (2) The clutch is installed backwards. (4) Discrepancies with the clutch assembly
       meeting races on the inner race or outer race shafts.\r"
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
     thisHyperlink: {fileID: 0}
     onClickEvent:
@@ -2249,6 +2344,7 @@ MonoBehaviour:
     sequenceDetails: e. Correct the causes for the incorrect operation of the clutch
       assembly, reassemble the freewheel shaft assembly, and recheck for correct
       operation of the clutch assembly
+    additionDetails: 
     sequenceAnimation: {fileID: 7612850577448528859, guid: 38ac005aecfffb44fbd0dfca8b4b5c12,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2259,6 +2355,7 @@ MonoBehaviour:
   - sequenceTitle: 8
     sequenceType: 0
     sequenceDetails: '8. Assemble the housing assembly as follows :'
+    additionDetails: 
     sequenceAnimation: {fileID: 7612850577448528859, guid: 38ac005aecfffb44fbd0dfca8b4b5c12,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2271,6 +2368,7 @@ MonoBehaviour:
     sequenceDetails: a. Lubricate the new packing with assembly fluid. Install the
       new packing on the union and install the union onto the housing assembly or
       fitting, as applicable. Torque the union
+    additionDetails: 
     sequenceAnimation: {fileID: 5089141334310586099, guid: ca8adafa1d48a804b9d2d9b30cd23f9e,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2283,6 +2381,7 @@ MonoBehaviour:
     sequenceDetails: b.  Install the packing on the self-closing valve and install
       the self-closing valve into the housing assembly or fitting, as applicable.
       Torque the self-closing valve T.
+    additionDetails: 
     sequenceAnimation: {fileID: 8649480718487257999, guid: bbc788459c5319c41bd7e38041eb4b91,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2295,6 +2394,7 @@ MonoBehaviour:
     sequenceDetails: c. Secure the self-closing valve to the housing assembly or
       bolt, as applicable, with lockwire. Lubricate the new packing with assembly
       fluid and install on the chip detector.
+    additionDetails: 
     sequenceAnimation: {fileID: 88581914651594363, guid: 03834dd540d9e2343aeecdaea0fc6839,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2306,6 +2406,7 @@ MonoBehaviour:
     sequenceType: 1
     sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
       OR DAMAGE TO THE PART MAY OCCUR
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
     thisHyperlink: {fileID: 0}
     onClickEvent:
@@ -2315,6 +2416,7 @@ MonoBehaviour:
   - sequenceTitle: 8h
     sequenceType: 2
     sequenceDetails: "h. Heat the housing assembly to a maximum of 275\xB0 (135\xB0C)."
+    additionDetails: 
     sequenceAnimation: {fileID: 1996867691744110059, guid: c8de57117ac458440a29e3590ea98886,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2326,6 +2428,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: i. Install the ring inside the housing assembly and make sure
       to align the holes on the ring with the holes in the housing assembly
+    additionDetails: 
     sequenceAnimation: {fileID: 5846504179271433175, guid: d37e2e0b40e954d4e853df100e266a60,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2336,6 +2439,7 @@ MonoBehaviour:
   - sequenceTitle: 9
     sequenceType: 0
     sequenceDetails: "9. Build up the freewheel assembly as follows :\r"
+    additionDetails: 
     sequenceAnimation: {fileID: 7612850577448528859, guid: 38ac005aecfffb44fbd0dfca8b4b5c12,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2350,6 +2454,7 @@ MonoBehaviour:
       in the original packaging until installation.
 
 '
+    additionDetails: 
     sequenceAnimation: {fileID: 7612850577448528859, guid: 38ac005aecfffb44fbd0dfca8b4b5c12,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2361,6 +2466,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: a. Apply lubricating oil, lubricating oil, or lubricating oil,
       as applicable, to the freewheel shaft assembly.
+    additionDetails: 
     sequenceAnimation: {fileID: 5100079652791902243, guid: e30ce126bd2c2254189b440533c16bd4,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2372,6 +2478,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: b. Install the housing assembly onto the freewheel shaft assembly
       until it bottoms out on the cap assembly
+    additionDetails: 
     sequenceAnimation: {fileID: 6058643791526472573, guid: 3c7b648962ddbb6418fd82ff67124f28,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2383,6 +2490,7 @@ MonoBehaviour:
     sequenceType: 3
     sequenceDetails: Do not tighten the nuts at this time, they will have to be removed
       for the installation of the freewheel assembly on the helicopter.
+    additionDetails: 
     sequenceAnimation: {fileID: 7612850577448528859, guid: 38ac005aecfffb44fbd0dfca8b4b5c12,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2394,6 +2502,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: c. For the freewheel assemblies 206-040-230, secure the housing
       assembly with the aluminum washers, steel washers, and nuts.
+    additionDetails: 
     sequenceAnimation: {fileID: 7351447309054797751, guid: 97cb4206d084c7a4e8e263464d3a3ea9,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2405,6 +2514,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: d. Apply lubricating oil, lubricating oil, or lubricating oil,
       as applicable, to the inner race shaft end splines and adapter inner splines.
+    additionDetails: 
     sequenceAnimation: {fileID: 7140881086531741530, guid: 944bfa2c007ee8b4ca636b34431194a0,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2415,6 +2525,7 @@ MonoBehaviour:
   - sequenceTitle: 9e
     sequenceType: 2
     sequenceDetails: e. Install the support assembly onto the freewheel shaft assembly.
+    additionDetails: 
     sequenceAnimation: {fileID: 5632114940165533264, guid: 381d3add530f0f44498745d1bf86a3bd,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2426,6 +2537,7 @@ MonoBehaviour:
     sequenceType: 3
     sequenceDetails: Do not tighten the nut now, it will have to be removed for the
       installation of the freewheel assembly on the engine gearbox.
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
     thisHyperlink: {fileID: 0}
     onClickEvent:
@@ -2436,6 +2548,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: f. Install the washer and the nut on the inner shaft of the
       freewheel shaft assembly. Hand tighten the nut.
+    additionDetails: 
     sequenceAnimation: {fileID: 3906151881784088468, guid: c19983ca822a9e2419cd2373a8cf444e,
       type: 3}
     thisHyperlink: {fileID: 0}
@@ -2447,6 +2560,7 @@ MonoBehaviour:
     sequenceType: 0
     sequenceDetails: 10. Clean all excess lubricant from the freewheel assembly with
       a clean cloth.
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
     thisHyperlink: {fileID: 0}
     onClickEvent:
@@ -2457,6 +2571,7 @@ MonoBehaviour:
     sequenceType: 0
     sequenceDetails: 11. Update the Historical Service Records with the overhaul
       of the freewheel assembly.
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
     thisHyperlink: {fileID: 0}
     onClickEvent:
@@ -2471,9 +2586,12 @@ MonoBehaviour:
     type: 3}
   sequenceTextNote: {fileID: 6000075751668427975, guid: 229d4afa56e90a147a5012ac34f12073,
     type: 3}
+  sequenceTextAddition: {fileID: 3037195415490717153, guid: a3ac9449b3f391b4791d5c51bf7e15a0,
+    type: 3}
   hyperlinkButton: {fileID: 8061869149730426265, guid: 1ba6a7622bfe20347b8850a8d9714395,
     type: 3}
   contentContainerParent: {fileID: 1989736176}
+  additionContainerParent: {fileID: 1693095887}
   objectSpawnParent: {fileID: 1868024994}
   button: {fileID: 0}
   nextButton: {fileID: 837489785}
@@ -2872,6 +2990,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548267264}
   m_CullTransparentMesh: 0
+--- !u!1 &1693095887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1693095888}
+  m_Layer: 5
+  m_Name: UIContentAdditionContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1693095888
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693095887}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 738428088}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.15, y: 0.025}
+  m_AnchorMax: {x: 0.85, y: 0.675}
+  m_AnchoredPosition: {x: -0.0015258789, y: 156.20001}
+  m_SizeDelta: {x: 0.0030517578, y: -312.4278}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1831616790
 GameObject:
   m_ObjectHideFlags: 0
@@ -3004,7 +3157,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1989736177}
   m_Layer: 5
-  m_Name: UIContentContainer
+  m_Name: UIContentCommonContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

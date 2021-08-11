@@ -166,7 +166,7 @@ PrefabInstance:
     - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
@@ -1106,6 +1106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1804a61b89b35a4484e659163b1b920, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sequenceNow: 0
   sequencesDatas:
   - sequenceTitle: 1
     sequenceType: 0
@@ -1113,120 +1114,246 @@ MonoBehaviour:
       assembly for a document account of an incident or accident that . would require
       a conditional inpection. Refer to the applicable Maintenance Manual, Chapter
       5.
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 2
     sequenceType: 0
     sequenceDetails: 2. Review the Airworthiness Limitations Schedule in  the applicable
       Maintenance Manual, Chapter 4 and the HSR for all parts that must be retired.
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 3
     sequenceType: 0
     sequenceDetails: 3. If you disassemble the mast assembly to find the  cause of
       unwanted particle contamination, refer to the  BHT-ALL-SPM, Chapter 8 for identification
       of the particles.
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 3Note1
     sequenceType: 0
     sequenceDetails: "Wear, damage, and repair limits are provided to determine if
       parts are\r\n serviceable. It is not intended that all dimensions provided
       be checked as a prescribed overhaul procedure. Parts exhibiting evidence of
       wear or physical damage shall be checked dimensionally."
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 3Note2
     sequenceType: 0
     sequenceDetails: 'Only a light finger pressure on the spherical probe is sufficient
       to sense the damage.
 
 '
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 4
     sequenceType: 0
     sequenceDetails: 4. Examine the parts for defects that can affect serviceability,
       as shown in Figure 63-10 through Figure 63-22.
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 5
     sequenceType: 0
     sequenceDetails: '5. Examine the attaching hardware for condition.
 
       Replace
       as required.'
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 6
     sequenceType: 0
     sequenceDetails: 6. Do a Total Indicated Runout (TIR) inspection of  the mast
       pole as follows (Figure 63-11 or Figure 63-18).
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 6a
     sequenceType: 0
     sequenceDetails: 'a. As the preferred method, do a mast runout on centers as
       follows:'
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 6a1
     sequenceType: 0
     sequenceDetails: (1) Make sure that the contact areas are clean and free of raised
       materia
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 6a2
     sequenceType: 2
     sequenceDetails: (2) With a dial indicator, make sure that it does not exceed
       the limits shown in Figure 63-11 or Figure 63-18, as applicable.
+    additionDetails: 
     sequenceAnimation: {fileID: 1656711943119501020, guid: 4be909e04ff45554a98d17a88fef4e01,
       type: 3}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 6b
     sequenceType: 0
     sequenceDetails: 'b. As an alternate method, do a mast runout on V-blocks as
       follows:'
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 6b1
     sequenceType: 0
     sequenceDetails: (1) Lightly coat the workaid items No. 7 and the V-blocks surfaces,
       that touch the mast pole, with grease (C-001).
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 6b1Caution
     sequenceType: 1
     sequenceDetails: MAKE SURE THE CORNERS OF THE WORKAID ITEMS NO. 7 DO NOT TOUCH
       THE RADII IN THE MAST POLE GROOVE OR A FALSE TIR READING CAN OCCUR.
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 6b2
     sequenceType: 2
     sequenceDetails: (2) Put one V-block with the two workaid items No. 7 in the
       mast pole groove. Make sure the mast pole does not move axially.
+    additionDetails: 
     sequenceAnimation: {fileID: 9036807623631803013, guid: 10eca217000e28347950c698cdbf51e2,
       type: 3}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 6b3
     sequenceType: 2
     sequenceDetails: (3) Place a second V-block under the mast pole at the main bearing
       journal.
+    additionDetails: 
     sequenceAnimation: {fileID: 2546920504307021170, guid: 61782f857a81d1940aa3db5c5b5ec6e2,
       type: 3}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 6b4
     sequenceType: 2
     sequenceDetails: (4) Slowly rotate the mast pole and make sure, with a dial indicator,
       that it does not exceed the limits shown in Figure 63-11 or Figure 63-18, as
       applicable.
+    additionDetails: 
     sequenceAnimation: {fileID: 352198593645192506, guid: 91b58c2d2545033418b1b0fc30f1b14a,
       type: 3}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 7
     sequenceType: 0
     sequenceDetails: 7. Examine the corrosion protective coating of the parts shown
       in Table 63-8 for deterioration. As required, replace the corrosion protective
       coating (paragraph 63-20).
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 8
     sequenceType: 0
     sequenceDetails: 8. Do a Non-Destructive Inspection (NDI) of the applicable parts
       (paragraph 63-13).
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 9
     sequenceType: 0
     sequenceDetails: 9. Refer to the repair section for the applicable repair procedures
       (paragraph 63-16).
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   - sequenceTitle: 10
     sequenceType: 0
     sequenceDetails: 10. If you do not use the parts immediately, refer to the BHT-ALL-SPM,
       Chapter 10 for the applicable storage procedures.
+    additionDetails: 
     sequenceAnimation: {fileID: 0}
+    thisHyperlink: {fileID: 0}
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    hyperlink: 0
   sequenceTextNormal: {fileID: 5616225204930101574, guid: e0d2920d6adf6a341bcfefdd4fe2a08d,
     type: 3}
   sequenceTextCaution: {fileID: 6000075751668427975, guid: eedeb91cefcfc24419b3f7f8aab27eda,
@@ -1235,8 +1362,14 @@ MonoBehaviour:
     type: 3}
   sequenceTextNote: {fileID: 6000075751668427975, guid: 229d4afa56e90a147a5012ac34f12073,
     type: 3}
+  sequenceTextAddition: {fileID: 3037195415490717153, guid: a3ac9449b3f391b4791d5c51bf7e15a0,
+    type: 3}
+  hyperlinkButton: {fileID: 8061869149730426265, guid: 1ba6a7622bfe20347b8850a8d9714395,
+    type: 3}
   contentContainerParent: {fileID: 1881086745}
+  additionContainerParent: {fileID: 777798474}
   objectSpawnParent: {fileID: 730797221}
+  button: {fileID: 0}
   nextButton: {fileID: 1764897953}
   prevButton: {fileID: 1665361200}
 --- !u!114 &368026986
@@ -1830,6 +1963,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 739004652}
   m_CullTransparentMesh: 0
+--- !u!1 &777798474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 777798475}
+  m_Layer: 5
+  m_Name: UIContentAdditionContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &777798475
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777798474}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2034552398}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.15, y: 0.025}
+  m_AnchorMax: {x: 0.85, y: 0.675}
+  m_AnchoredPosition: {x: 667.40015, y: 499.49976}
+  m_SizeDelta: {x: -835.30774, y: -405.0005}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &999416207
 GameObject:
   m_ObjectHideFlags: 0
@@ -4263,7 +4431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1881086746}
   m_Layer: 5
-  m_Name: UIContentContainer
+  m_Name: UIContentCommonContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4729,6 +4897,7 @@ RectTransform:
   - {fileID: 1665361201}
   - {fileID: 1764897954}
   - {fileID: 1881086746}
+  - {fileID: 777798475}
   - {fileID: 9971281}
   m_Father: {fileID: 0}
   m_RootOrder: 4

@@ -80,7 +80,8 @@ public class ShowContentImages : MonoBehaviour
 
     public void ScaleUpSpritesContainer()
     {
-        ImageUICanvasObjectScaler[] contentChild = contentContainer.GetComponentsInChildren<ImageUICanvasObjectScaler>();
+        ImageUICanvasObjectScaler[] contentChild = contentContainer.
+            GetComponentsInChildren<ImageUICanvasObjectScaler>();
 
         foreach (ImageUICanvasObjectScaler sprite in contentChild)
         {
@@ -90,7 +91,8 @@ public class ShowContentImages : MonoBehaviour
 
     public void ScaleDownSpritesContainer()
     {
-        ImageUICanvasObjectScaler[] contentChild = contentContainer.GetComponentsInChildren<ImageUICanvasObjectScaler>();
+        ImageUICanvasObjectScaler[] contentChild = contentContainer.
+            GetComponentsInChildren<ImageUICanvasObjectScaler>();
 
         foreach (ImageUICanvasObjectScaler sprite in contentChild)
         {
