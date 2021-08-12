@@ -1299,9 +1299,8 @@ MonoBehaviour:
     hyperlink: 0
   - sequenceTitle: 2a
     sequenceType: 2
-    sequenceDetails: a. Lubricate the outside diameter of the bearing (2, Figure
-      63-76) and the bore of the aft housing assembly with lubricating oil (C-010),
-      lubricating oil (C-011), or lubricating oil (C-030), as applicable
+    sequenceDetails: a. Lubricate the outside diameter of the bearing and the bore
+      of the aft housing assembly with lubricating oil
     additionDetails: 
     sequenceAnimation: {fileID: 2448968091102848885, guid: 17c659fc70920f24abe6ee7f65c2913a,
       type: 3}
@@ -1347,7 +1346,7 @@ MonoBehaviour:
   - sequenceTitle: 2d
     sequenceType: 2
     sequenceDetails: d. Install the bearing into the aft housing assembly with workaid
-      item No. 2, as shown in Figure 63-76.
+      item No. 2.
     additionDetails: 
     sequenceAnimation: {fileID: 5227361907198564016, guid: 2514ed9187947994494d45700d931cf8,
       type: 3}
@@ -1382,7 +1381,7 @@ MonoBehaviour:
   - sequenceTitle: 2f
     sequenceType: 2
     sequenceDetails: f. Clean the bore of the aft housing assembly and the outer
-      diameter of a new seal with MEK (C-309).
+      diameter of a new seal with MEK.
     additionDetails: 
     sequenceAnimation: {fileID: 7875446114024994940, guid: 5c52e09c9c538664ea7f2694aa5c3acc,
       type: 3}
@@ -1393,8 +1392,8 @@ MonoBehaviour:
     hyperlink: 0
   - sequenceTitle: 2g
     sequenceType: 2
-    sequenceDetails: g. Apply a light coat of sealant (C-328) to the bore of the
-      aft housing assembly and to the outer diameter of the seal.
+    sequenceDetails: g. Apply a light coat of sealant to the bore of the aft housing
+      assembly and to the outer diameter of the seal.
     additionDetails: 
     sequenceAnimation: {fileID: 8116281636308170860, guid: 0892e0c860cb33c4dbd61780657b9709,
       type: 3}
@@ -1418,8 +1417,7 @@ MonoBehaviour:
   - sequenceTitle: 2i
     sequenceType: 2
     sequenceDetails: i. Press the seal into the bore of the aft housing assembly
-      with workaid item No. 2, as shown in Figure 63-76, and smooth the excess sealant
-      (C-328).
+      with workaid item No. 2, and smooth the excess sealant
     additionDetails: 
     sequenceAnimation: {fileID: 5227361907198564016, guid: 2514ed9187947994494d45700d931cf8,
       type: 3}
@@ -1431,8 +1429,7 @@ MonoBehaviour:
   - sequenceTitle: 2j
     sequenceType: 2
     sequenceDetails: j. Lubricate the inner race of the bearing and the mating area
-      of the adapter with lubricating oil (C-010), lubricating oil (C-011), or lubricating
-      oil (C-030), as applicable
+      of the adapter with lubricating oil
     additionDetails: 
     sequenceAnimation: {fileID: 1922745389358505245, guid: 4376acb52ea83164dace5ecad141fe02,
       type: 3}
@@ -1444,7 +1441,7 @@ MonoBehaviour:
   - sequenceTitle: 2k
     sequenceType: 2
     sequenceDetails: k. Lightly coat the lips of the seal and the seal wear path
-      on the adapter with grease (C-001).
+      on the adapter with grease.
     additionDetails: 
     sequenceAnimation: {fileID: 2814618480392981075, guid: 789da01f32bffd54cbfb951875002225,
       type: 3}
@@ -1503,8 +1500,7 @@ MonoBehaviour:
     hyperlink: 0
   - sequenceTitle: 2o
     sequenceType: 2
-    sequenceDetails: o. Press the adapter into the inner race of the bearing, as
-      shown in Figure 63-76.
+    sequenceDetails: o. Press the adapter into the inner race of the bearing
     additionDetails: 
     sequenceAnimation: {fileID: 3342758580345030529, guid: 04ed74b179928b449ae71589fd615d3a,
       type: 3}
@@ -1515,7 +1511,7 @@ MonoBehaviour:
     hyperlink: 0
   - sequenceTitle: 2p
     sequenceType: 2
-    sequenceDetails: p. Lubricate the new packing (6) with assembly fluid (C-024).
+    sequenceDetails: p. Lubricate the new packing with assembly fluid.
     additionDetails: 
     sequenceAnimation: {fileID: 555743519250274442, guid: bff30cde3d05d2841b2f0a9fa4711d13,
       type: 3}
@@ -1560,9 +1556,8 @@ MonoBehaviour:
     hyperlink: 0
   - sequenceTitle: 3a
     sequenceType: 2
-    sequenceDetails: a. Lubricate the outside diameter of the bearing, Figure 63-77)
-      and the bore of the cap assembly with lubricating oil (C-010), lubricating
-      oil (C-011), or lubricating oil (C-030), as applicable.
+    sequenceDetails: a. Lubricate the outside diameter of the bearing, and the bore
+      of the cap assembly with lubricating oil
     additionDetails: 
     sequenceAnimation: {fileID: 6821443087449667239, guid: f273b7b347848a843a6a58493c2ffbd0,
       type: 3}
@@ -1609,7 +1604,7 @@ MonoBehaviour:
   - sequenceTitle: 3d
     sequenceType: 2
     sequenceDetails: d. Press the bearing into the cap assembly with workaid item
-      No. 3, as shown in Figure 63-77.
+      No. 3
     additionDetails: 
     sequenceAnimation: {fileID: 5216640362429009492, guid: 99d1c8f1de3bd8b49b8ee879e8edd6f4,
       type: 3}
@@ -1646,7 +1641,7 @@ MonoBehaviour:
   - sequenceTitle: 3e1
     sequenceType: 2
     sequenceDetails: "1. Clean the outside diameter of the new\vseal and the bore
-      of the cap assembly with MEK (C-309)"
+      of the cap assembly with MEK"
     additionDetails: 
     sequenceAnimation: {fileID: 4309455359239867812, guid: 70801ff534a4be643802249ec90a2a0d,
       type: 3}
@@ -1657,8 +1652,8 @@ MonoBehaviour:
     hyperlink: 0
   - sequenceTitle: 3e2
     sequenceType: 2
-    sequenceDetails: "2. Apply a light coat of sealant (C-328) to\vthe outer diameter
-      of a new seal and the bore of the cap assembly."
+    sequenceDetails: "2. Apply a light coat of sealant to\v the outer diameter of
+      a new seal and the bore of the cap assembly."
     additionDetails: 
     sequenceAnimation: {fileID: 1045331907464200942, guid: e5bcb15332f77614c95e82601b5d9477,
       type: 3}
@@ -1682,8 +1677,7 @@ MonoBehaviour:
   - sequenceTitle: 3e4
     sequenceType: 2
     sequenceDetails: "4. Put the seal over the bore of the cap assembly. Put workaid
-      item No. 3 over the seal and\vpress the seal into the cap assembly, as shown
-      in Figure 63-77"
+      item No. 3 over the seal and\vpress the seal into the cap assembly"
     additionDetails: 
     sequenceAnimation: {fileID: 3994725151261767892, guid: 9a0eb16b85f88104ca8d6e903bb7a3ce,
       type: 3}
@@ -1781,7 +1775,7 @@ MonoBehaviour:
   - sequenceTitle: 4a
     sequenceType: 2
     sequenceDetails: a. Lubricate the bore of the outer race shaft and bearing with
-      lubricating oil, lubricating oil, or lubricating oil, as applicable.
+      lubricating oil
     additionDetails: 
     sequenceAnimation: {fileID: 3013995160600894058, guid: dc68b076cd5f164419eee29e020e9ea3,
       type: 3}
@@ -1887,7 +1881,7 @@ MonoBehaviour:
   - sequenceTitle: 4i
     sequenceType: 2
     sequenceDetails: "i. Lubricate the clutch assembly and the\vouter race shaft
-      with lubricating oil, lubricating oil, or lubricating oil, as applicable"
+      with lubricating oil"
     additionDetails: 
     sequenceAnimation: {fileID: 6711698452728729824, guid: 1c821f2aac97c574eafc76cd44d481ff,
       type: 3}
@@ -1936,8 +1930,7 @@ MonoBehaviour:
     hyperlink: 0
   - sequenceTitle: 4k
     sequenceType: 2
-    sequenceDetails: k. Lubricate the plate with lubricating oil, lubricating oil,
-      or lubricating oil, as applicable
+    sequenceDetails: k. Lubricate the plate with lubricating oil
     additionDetails: 
     sequenceAnimation: {fileID: 3054401397165238502, guid: 6399d3778bbdc13419de59be6f2afb3d,
       type: 3}
@@ -1961,8 +1954,7 @@ MonoBehaviour:
   - sequenceTitle: 4m
     sequenceType: 2
     sequenceDetails: m. Lubricate the inside diameter of the outer race shaft and
-      the outer race of the bearing with lubricating oil, lubricating oil, or lubricating
-      oil, as applicable.
+      the outer race of the bearing with lubricating oil
     additionDetails: 
     sequenceAnimation: {fileID: 601719639567222976, guid: 4fba66a6545e5bb4c857648d177a3786,
       type: 3}
@@ -2044,7 +2036,7 @@ MonoBehaviour:
   - sequenceTitle: 4qNote2
     sequenceType: 3
     sequenceDetails: Make sure that the vent valve housing 206-040-249-001 was modified
-      per  instruction provided in paragraph 63-49.
+      per instruction provided in paragraph 63-49.
     additionDetails: 
     sequenceAnimation: {fileID: 6711698452728729824, guid: 1c821f2aac97c574eafc76cd44d481ff,
       type: 3}
@@ -2187,7 +2179,7 @@ MonoBehaviour:
   - sequenceTitle: 6d
     sequenceType: 2
     sequenceDetails: d. Lubricate all surfaces inside the outer race shaft with lubricating
-      oil, lubricating oil, or lubricating oil, as applicable.
+      oil
     additionDetails: 
     sequenceAnimation: {fileID: 8914308416842726621, guid: 08cce9e8ca147754f823863a8335b236,
       type: 3}
@@ -2464,8 +2456,7 @@ MonoBehaviour:
     hyperlink: 0
   - sequenceTitle: 9a
     sequenceType: 2
-    sequenceDetails: a. Apply lubricating oil, lubricating oil, or lubricating oil,
-      as applicable, to the freewheel shaft assembly.
+    sequenceDetails: a. Apply lubricating oil to the freewheel shaft assembly.
     additionDetails: 
     sequenceAnimation: {fileID: 5100079652791902243, guid: e30ce126bd2c2254189b440533c16bd4,
       type: 3}
@@ -2512,8 +2503,8 @@ MonoBehaviour:
     hyperlink: 0
   - sequenceTitle: 9d
     sequenceType: 2
-    sequenceDetails: d. Apply lubricating oil, lubricating oil, or lubricating oil,
-      as applicable, to the inner race shaft end splines and adapter inner splines.
+    sequenceDetails: d. Apply lubricating oil to the inner race shaft end splines
+      and adapter inner splines.
     additionDetails: 
     sequenceAnimation: {fileID: 7140881086531741530, guid: 944bfa2c007ee8b4ca636b34431194a0,
       type: 3}
@@ -2557,11 +2548,12 @@ MonoBehaviour:
         m_Calls: []
     hyperlink: 0
   - sequenceTitle: 10
-    sequenceType: 0
+    sequenceType: 2
     sequenceDetails: 10. Clean all excess lubricant from the freewheel assembly with
       a clean cloth.
     additionDetails: 
-    sequenceAnimation: {fileID: 0}
+    sequenceAnimation: {fileID: 3519816290526197751, guid: 412b880aa43aab54d93a3a10cc53665f,
+      type: 3}
     thisHyperlink: {fileID: 0}
     onClickEvent:
       m_PersistentCalls:

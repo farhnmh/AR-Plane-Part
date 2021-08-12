@@ -15,7 +15,11 @@ public class AssemblyInspection : MonoBehaviour
     [Header("Event Attribute")]
     public UnityEvent[] objectEvent;
 
-    // Update is called once per frame
+    void Start()
+    {
+        menuIndex = PlayerPrefs.GetInt("AssemblyMenu");
+    }
+
     void Update()
     {
         UpdateMenuIndex();
@@ -24,6 +28,7 @@ public class AssemblyInspection : MonoBehaviour
     public void SetMenuIndex(int index)
     {
         menuIndex = index;
+        PlayerPrefs.SetInt("AssemblyMenu", menuIndex);
     }
 
     public void UpdateMenuIndex()
