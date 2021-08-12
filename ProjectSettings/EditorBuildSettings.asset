@@ -5,97 +5,112 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scene/Wira/LoadingScreen/SceneWira_LoadingScreen.unity
     guid: b7b64adf0c91fc04f8434a0bbd31fa99
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scene/Xime/LoadingScreen/SceneXime_LoadingScreen.unity
     guid: ba066691043232e4fac92df99cac7b26
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scene/Wira/MainMenu/SceneWira_MainMenu.unity
     guid: 3e6d0beef8c1e4f4ca7b6505ff6f5085
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scene/Xime/Menu/SceneXime_Menu.unity
     guid: 97b40a28c3c036e419c60bcef535e06b
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scene/Wira/Inspection/SceneWira_Inspection.unity
     guid: c85fe2e23e7c6084d8134bc4586e15dd
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scene/Wira/AssemblyAR/SceneWira_ARAssembly.unity
     guid: f04946acdd8586b4a8ec9f033c379588
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scene/Wira/Assembly/SceneWira_Assembly.unity
     guid: 56dd94933611f3c4098159d0e6f81378
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scene/Wira/Assembly/SceneWira_ClutchDanger.unity
     guid: 7614ac779db1e1242a00ffbb96225b40
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scene/Wira/Assembly/SceneWira_CorrosionProtectiveTreatment.unity
     guid: c5e98fe02d36e4c44ae90e036be208e9
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scene/Wira/Assembly/SceneWira_NonDestructiveInspection.unity
     guid: ea4c337e6d78e464fb68fd46a1cfd6c7
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scene/Wira/Task Card/SceneWira_TaskCard.unity
     guid: d229783e33e7fee43a4599ef4079a719
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scene/Wira/Tools/SceneWira_Tools.unity
     guid: 222c5c0070d908a40ace846a54e0ea1b
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scene/Wira/AR/SceneWira_AR.unity
     guid: 17eac09076a1fc14d8eed10c14f5e1be
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scene/Xime/Inspection/SceneXime_ARInspection.unity
     guid: 0163daea3d73a1446bc2a321526095a4
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scene/Xime/Inspection/SceneXime_Inspection.unity
     guid: 36716f5306229c84796926324b57e00b
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scene/Xime/Introduction/SceneXime_Introduction.unity
     guid: fc8e7cff78297e04fa86db82a59f8bce
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scene/Xime/MaterialReq/SceneXime_MaterialReq.unity
     guid: 947eb6df2c5875643a8affc0e45324ab
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scene/Xime/MaterialReq/SceneXime_Grease.unity
     guid: d7e581882fd2b004d878ce9bf557f49e
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scene/Xime/MaterialReq/SceneXime_IndiaStone.unity
     guid: 40b380d614127e140a53018bb26b2cf7
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scene/Xime/MaterialReq/SceneXime_StainlessSteelWool.unity
     guid: 58c47ba029579004080ab3027e6c0dc2
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scene/Xime/Reference/SceneXime_Reference.unity
     guid: 7513e9fd0da31cc4b8bfb560f81a86bd
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scene/Xime/Reference/SceneXime_ReferenceCRO.unity
     guid: 650035c39f6a94b4b8bd8f86ef1c0d2c
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scene/Xime/SpecialTool/SceneXime_SpecialTools.unity
     guid: 67c2747c87f520c4f9d83cb7eb3b81d0
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scene/Xime/SpecialTool/SceneXime_Workaid.unity
     guid: 2e7f631343dd4794f90a70b227379599
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scene/Xime/TaskCard/SceneXime_TaskCard.unity
     guid: 62dae9889d31a38489eca522cd0e3278
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scene/Xime/Inspection/SparePartScenes/SceneXime_BearingLiner.unity
     guid: adcf536ce39ed064dae1b2de2d31f43a
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scene/Xime/Inspection/SparePartScenes/SceneXime_LockingPlate.unity
     guid: 276663acff4d6af479a5e7fd501a7ed6
-  - enabled: 0
+  - enabled: 1
+    path: Assets/_Scene/Xime/Inspection/SparePartScenes/SceneXime_MastBearing_1.unity
+    guid: 3b142e362c22996458e22ceeeb6db663
+  - enabled: 1
+    path: Assets/_Scene/Xime/Inspection/SparePartScenes/SceneXime_MastBearing_2.unity
+    guid: 28f0b6309b66a1548b61e1cbf5839dd6
+  - enabled: 1
+    path: Assets/_Scene/Xime/Inspection/SparePartScenes/SceneXime_MastBearing_3.unity
+    guid: b3a3c4e8cb136644ca596c6088ff2a2e
+  - enabled: 1
     path: Assets/_Scene/Xime/Inspection/SparePartScenes/SceneXime_MastNut.unity
     guid: 8e5de7716973edd40adf8b3ad58d9a92
-  - enabled: 0
-    path: Assets/_Scene/Xime/Inspection/SparePartScenes/SceneXime_MastPole.unity
+  - enabled: 1
+    path: Assets/_Scene/Xime/Inspection/SparePartScenes/SceneXime_MastPoleAB.unity
     guid: 41037c9c4b9edd24bade0c0cb41760c5
-  - enabled: 0
-    path: Assets/_Scene/Xime/Inspection/SparePartScenes/SceneXime_MastBearing.unity
-    guid: 644c0d7f93148b64d98b6f597148b6df
-  - enabled: 0
+  - enabled: 1
+    path: Assets/_Scene/Xime/Inspection/SparePartScenes/SceneXime_MastPoleL.unity
+    guid: 8ccd51d65a1492043b47bbce23250353
+  - enabled: 1
     path: Assets/_Scene/Xime/Inspection/SparePartScenes/SceneXime_SealPlate.unity
     guid: 8b2133f98673b4a4dab50fe137c0850c
+  - enabled: 1
+    path: Assets/_Scene/Xime/Inspection/SparePartScenes/SceneXime_SealPlateGerigi.unity
+    guid: 304d33391cec7bc4099b28a9e3688b9b
+  - enabled: 1
+    path: Assets/_Scene/Xime/Inspection/SparePartScenes/SceneXime_Spacer.unity
+    guid: c83c49ded358a454b95f39b2ff0df8e1
   m_configObjects: {}
