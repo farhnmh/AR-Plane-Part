@@ -32,6 +32,7 @@ public class SequencesData
 public class SequenceController : MonoBehaviour
 {
     public int sequenceNow;
+    public SoundHandler soundHandler;
     public SequencesData[] sequencesDatas;
     public GameObject sequenceTextNormal;
     public GameObject sequenceTextCaution;
@@ -123,6 +124,13 @@ public class SequenceController : MonoBehaviour
         SpawnSequenceData();
     }
 
+    void SoundManager()
+    {
+        soundHandler.StopSound();
+        soundHandler.ChangeSound(sequenceNow + 1);
+        soundHandler.PlaySound();
+    }
+
     void SpawnSequenceData()
     {
         switch (sequencesDatas[sequenceNow].sequenceType)
@@ -131,6 +139,7 @@ public class SequenceController : MonoBehaviour
                 TextMeshProUGUI normalText = Instantiate(sequenceTextNormal, contentContainerParent.transform)
                     .GetComponentInChildren<TextMeshProUGUI>();
                 normalText.text = sequencesDatas[sequenceNow].sequenceDetails;
+                SoundManager();
 
                 if (sequencesDatas[sequenceNow].hyperlink)
                 {
@@ -147,17 +156,20 @@ public class SequenceController : MonoBehaviour
                 TextMeshProUGUI cautionText = Instantiate(sequenceTextCaution, contentContainerParent.transform)
                     .GetComponentInChildren<TextMeshProUGUI>();
                 cautionText.text = sequencesDatas[sequenceNow].sequenceDetails;
+                SoundManager();
                 break;
             case SequenceEnum.ANIMATION:
                 TextMeshProUGUI animationText = Instantiate(sequenceTextAnimation, contentContainerParent.transform)
                     .GetComponentInChildren<TextMeshProUGUI>();
                 animationText.text = sequencesDatas[sequenceNow].sequenceDetails;
                 Instantiate(sequencesDatas[sequenceNow].sequenceAnimation, objectSpawnParent.transform);
+                SoundManager();
                 break;
             case SequenceEnum.NOTE:
                 TextMeshProUGUI noteText = Instantiate(sequenceTextNote, contentContainerParent.transform)
                     .GetComponentInChildren<TextMeshProUGUI>();
                 noteText.text = sequencesDatas[sequenceNow].sequenceDetails;
+                SoundManager();
                 break;
             case SequenceEnum.ADDITION:
                 TextMeshProUGUI additionText = Instantiate(sequenceTextAnimation, contentContainerParent.transform)
@@ -167,6 +179,7 @@ public class SequenceController : MonoBehaviour
                 additionText = Instantiate(sequenceTextAddition, additionContainerParent.transform)
                     .GetComponentInChildren<TextMeshProUGUI>();
                 additionText.text = sequencesDatas[sequenceNow].additionDetails;
+                SoundManager();
                 break;
             default:
                 break;

@@ -452,7 +452,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &422747770
 GameObject:
@@ -1157,6 +1157,149 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1390732865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1390732866}
+  - component: {fileID: 1390732867}
+  - component: {fileID: 1390732868}
+  m_Layer: 0
+  m_Name: SoundHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1390732866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390732865}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1390732867
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390732865}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1390732868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390732865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7b45844b22ffa74bbd61390ca09dfef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  indexProject: 0
+  audioClp: {fileID: 0}
+  audioSrc: {fileID: 1390732867}
 --- !u!1 &1485535404
 GameObject:
   m_ObjectHideFlags: 0
@@ -1215,6 +1358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sequenceNow: 0
+  soundHandler: {fileID: 1390732868}
   sequencesDatas:
   - sequenceTitle: 1
     sequenceType: 0
@@ -1524,7 +1668,7 @@ MonoBehaviour:
     sequenceType: 2
     sequenceDetails: q. Install the packing on the reducer.
     additionDetails: 
-    sequenceAnimation: {fileID: 5353776022195436994, guid: 346eee7fa4ba98f46ab02add93d37bcd,
+    sequenceAnimation: {fileID: 8136971983443382898, guid: 235990c01730d6b41a64519e62ae64df,
       type: 3}
     thisHyperlink: {fileID: 0}
     onClickEvent:
@@ -1536,7 +1680,7 @@ MonoBehaviour:
     sequenceDetails: r. Install the reducer on the aft housing assembly. Torque the
       reducer T.
     additionDetails: 
-    sequenceAnimation: {fileID: 4501827184346406971, guid: c58fa91afcb38ea4abcac54359b734c8,
+    sequenceAnimation: {fileID: 5353776022195436994, guid: 346eee7fa4ba98f46ab02add93d37bcd,
       type: 3}
     thisHyperlink: {fileID: 0}
     onClickEvent:
@@ -2132,7 +2276,7 @@ MonoBehaviour:
   - sequenceTitle: 6b1
     sequenceType: 2
     sequenceDetails: 1. Lubricate all race surfaces of the inner race shaft with
-      lubricating oil, lubricating oil, or lubricating oil, as applicable.
+      lubricating oil
     additionDetails: 
     sequenceAnimation: {fileID: 6764798177760551451, guid: 80ae6e888d4817b4ba0a009c18630092,
       type: 3}
@@ -2154,8 +2298,8 @@ MonoBehaviour:
     hyperlink: 0
   - sequenceTitle: 6b3
     sequenceType: 2
-    sequenceDetails: (3) Apply a light coat of lubricating oil, lubricating oil,
-      or lubricating oil, as applicable, to the lips of the seal.
+    sequenceDetails: (3) Apply a light coat of lubricating oil to the lips of the
+      seal.
     additionDetails: 
     sequenceAnimation: {fileID: 5107157301334828727, guid: 529f21e54789cfc4082917d19b278c8a,
       type: 3}
@@ -2394,7 +2538,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     hyperlink: 0
-  - sequenceTitle: 8bCaution
+  - sequenceTitle: 8cCaution
     sequenceType: 1
     sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
       OR DAMAGE TO THE PART MAY OCCUR
@@ -3137,7 +3281,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1989736176
 GameObject:
