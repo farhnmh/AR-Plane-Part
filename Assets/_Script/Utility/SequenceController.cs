@@ -124,6 +124,12 @@ public class SequenceController : MonoBehaviour
         SpawnSequenceData();
     }
 
+    public void ContinueSequence()
+    {
+        ClearAllContent();
+        SpawnSequenceData();
+    }
+
     void SoundManager()
     {
         soundHandler.StopSound();

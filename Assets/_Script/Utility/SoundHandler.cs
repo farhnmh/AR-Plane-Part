@@ -19,7 +19,7 @@ public class SoundHandler : MonoBehaviour
 
             // xime
             case 1:
-
+                audioClp = Resources.Load<AudioClip>($"Xime Dubbing/dubbing ({index})");
                 break;
         }
     }

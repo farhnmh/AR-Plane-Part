@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 724838169335187168}
   m_LocalRotation: {x: 0.00000008146035, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.09708613, y: 0.95646024, z: 1.9981046}
+  m_LocalPosition: {x: -0.35000002, y: 0.40800023, z: 1.7764688}
   m_LocalScale: {x: 0.00011380683, y: 0.00011380683, z: 0.00011380683}
   m_Children: []
   m_Father: {fileID: 6782462638395796856}
@@ -510,7 +510,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5258268353669599353}
   m_LocalRotation: {x: 0.00000008146035, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.09708613, y: 0.95646024, z: 0.5533472}
+  m_LocalPosition: {x: -0.35000002, y: 0.40800023, z: 0.33171135}
   m_LocalScale: {x: -0.0001800948, y: -0.0001800948, z: -0.0001800948}
   m_Children: []
   m_Father: {fileID: 6782462638395796856}
@@ -597,7 +597,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6107730283927701610}
   m_LocalRotation: {x: 0.00000008146035, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.09708613, y: 0.95646024, z: 4.3816357}
+  m_LocalPosition: {x: -0.35, y: 0.408, z: 4.16}
   m_LocalScale: {x: 0.000040907635, y: 0.000040907635, z: 0.000040907635}
   m_Children: []
   m_Father: {fileID: 6782462638395796856}
@@ -669,7 +669,6 @@ GameObject:
   - component: {fileID: 6782462638395796856}
   - component: {fileID: 6155283216799430592}
   - component: {fileID: 6155283216799430593}
-  - component: {fileID: 6028560956728777673}
   m_Layer: 0
   m_Name: Scene 3
   m_TagString: Untagged
@@ -685,7 +684,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6155283216799430594}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.44, y: 3.02, z: -0.26}
+  m_LocalPosition: {x: 1.36, y: 3.91, z: 1.33}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 4338306667752188085}
@@ -732,17 +731,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6028560956728777673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6155283216799430594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75c48af1ef11e95449c81985b91ed293, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextAnim: {fileID: 1656711943119501020, guid: 4be909e04ff45554a98d17a88fef4e01,
-    type: 3}
