@@ -25,11 +25,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3941189294677184084}
   m_LocalRotation: {x: 0.0650875, y: -0.011523541, z: 0.17395441, w: 0.9825328}
-  m_LocalPosition: {x: 1.1, y: -3.6, z: 0.2939}
+  m_LocalPosition: {x: -0.04, y: 0.01, z: 0.2939}
   m_LocalScale: {x: 2.0368, y: 2.0368, z: 2.0368}
   m_Children:
-  - {fileID: 4200648616623401619}
-  - {fileID: 2613885980636726593}
+  - {fileID: 2240127413067381239}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 7.58, y: 0, z: 20.08}
@@ -47,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationRate: 3
   scaleRate: 0.0015
---- !u!1 &5612246721866250531
+--- !u!1 &4192189062347581723
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,45 +54,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4200648616623401619}
-  - component: {fileID: 664000259237291410}
-  - component: {fileID: 8268279424057302561}
+  - component: {fileID: 2240127413067381239}
+  - component: {fileID: 2641847612736525911}
+  - component: {fileID: 3504385174137201949}
   m_Layer: 0
-  m_Name: oil+gallon_oil+gallon_Color_A05
+  m_Name: Oiler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4200648616623401619
+--- !u!4 &2240127413067381239
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5612246721866250531}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_GameObject: {fileID: 4192189062347581723}
+  m_LocalRotation: {x: 0.15473904, y: 0.9572428, z: -0.056130752, w: 0.23788984}
+  m_LocalPosition: {x: -0.25, y: -1.64, z: 0.03}
+  m_LocalScale: {x: 38.378933, y: 38.378914, z: 38.378914}
   m_Children: []
   m_Father: {fileID: 4465946184472466670}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &664000259237291410
+  m_LocalEulerAnglesHint: {x: 10.433001, y: -206.45099, z: 15.907001}
+--- !u!33 &2641847612736525911
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5612246721866250531}
-  m_Mesh: {fileID: -600376206607234092, guid: 1c6b7b62a058e81428cda844e5b29787, type: 3}
---- !u!23 &8268279424057302561
+  m_GameObject: {fileID: 4192189062347581723}
+  m_Mesh: {fileID: -3723047011738806082, guid: 9b1899bda66dfa64a9790f6913d349cd, type: 3}
+--- !u!23 &3504385174137201949
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5612246721866250531}
+  m_GameObject: {fileID: 4192189062347581723}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -105,86 +104,10 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ab119adf4a248a54bbdfccd182ef20a6, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &7780908336184993809
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2613885980636726593}
-  - component: {fileID: 7308093236748538373}
-  - component: {fileID: 5615727348432896227}
-  m_Layer: 0
-  m_Name: oil+gallon_oil+gallon_Material.003
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2613885980636726593
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7780908336184993809}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4465946184472466670}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &7308093236748538373
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7780908336184993809}
-  m_Mesh: {fileID: 7654715565992315591, guid: 1c6b7b62a058e81428cda844e5b29787, type: 3}
---- !u!23 &5615727348432896227
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7780908336184993809}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 3ad883c47d3dfa045bbc0295a00609b9, type: 2}
+  - {fileID: 2100000, guid: b828d014433387941990b83ac1490590, type: 2}
+  - {fileID: 2100000, guid: c6678146ca8376c46838ab23e23b8994, type: 2}
+  - {fileID: 2100000, guid: 28a37209eb7df5046a19311b82f9b580, type: 2}
+  - {fileID: 2100000, guid: 1b14fc1b443b267498e37b4f712ff1ab, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

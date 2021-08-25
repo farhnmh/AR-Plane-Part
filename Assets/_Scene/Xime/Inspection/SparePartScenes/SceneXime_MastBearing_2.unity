@@ -2369,7 +2369,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.025, y: 0.85}
   m_AnchorMax: {x: 0.075, y: 0.95}
-  m_AnchoredPosition: {x: 499, y: -858}
+  m_AnchoredPosition: {x: 0, y: -163}
   m_SizeDelta: {x: 0.036132812, y: 0.04058838}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &953412896
@@ -3398,10 +3398,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   componentName: Mast Bearing
   spawnPoint: {fileID: 1868024994}
-  component:
-  - {fileID: 330915746}
-  - {fileID: 354377656}
-  - {fileID: 1497490508}
 --- !u!1 &1497490508
 GameObject:
   m_ObjectHideFlags: 0

@@ -121,7 +121,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &8389000
+--- !u!1 &211498157
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,57 +129,239 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8389001}
-  - component: {fileID: 8389003}
-  - component: {fileID: 8389002}
-  m_Layer: 5
-  m_Name: BG
+  - component: {fileID: 211498163}
+  - component: {fileID: 211498162}
+  - component: {fileID: 211498161}
+  - component: {fileID: 211498160}
+  - component: {fileID: 211498159}
+  - component: {fileID: 211498158}
+  m_Layer: 0
+  m_Name: ImageTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &8389001
-RectTransform:
+--- !u!33 &211498158
+MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8389000}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 738428088}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &8389002
+  m_GameObject: {fileID: 211498157}
+  m_Mesh: {fileID: 1706876177}
+--- !u!23 &211498159
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211498157}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 723812204}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &211498160
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8389000}
-  m_Enabled: 0
+  m_GameObject: {fileID: 211498157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1770992566, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &211498161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211498157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29cb4fd02b43f784f9458fde3d9ddc7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  methodToCallOnFound:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2104615734}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  methodToCallOnLost:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2104615734}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &211498162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211498157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTrackableName: wira-ar_assembly_marker
+  mPreserveChildSize: 0
+  mInitializedInEditor: 1
+  mDataSetPath: Vuforia/ar-plane.xml
+  mAspectRatio: 1
+  mImageTargetType: 0
+  mWidth: 1
+  mHeight: 1
+--- !u!4 &211498163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211498157}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &723812204
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'wira-ar_assembly_markerMaterial
+
+    97402'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: fb3ab14c3b814774bd5eb1a7c0983755, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+--- !u!1 &790685597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 790685598}
+  - component: {fileID: 790685600}
+  - component: {fileID: 790685599}
+  m_Layer: 5
+  m_Name: FillImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &790685598
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790685597}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2104615735}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -2, y: -2}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &790685599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790685597}
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4862745, g: 0.5372549, b: 0.6509804, a: 1}
+  m_Color: {r: 0.45843717, g: 0.69587743, b: 0.9622642, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: d933e3d481575ca4b8c63bf881596b5f, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -187,20 +369,149 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &8389003
+--- !u!222 &790685600
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8389000}
+  m_GameObject: {fileID: 790685597}
   m_CullTransparentMesh: 0
---- !u!1001 &13414114
+--- !u!1 &829427248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 829427249}
+  - component: {fileID: 829427252}
+  - component: {fileID: 829427251}
+  - component: {fileID: 829427250}
+  m_Layer: 5
+  m_Name: BackButton (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &829427249
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829427248}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.91, y: 0.91, z: 0.91}
+  m_Children: []
+  m_Father: {fileID: 2083431912}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &829427250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829427248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 829427251}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1107187066}
+        m_MethodName: GoToScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SceneWira_MainMenu
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &829427251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829427248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c790ba95c41a69f42b4d4e898556510c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &829427252
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829427248}
+  m_CullTransparentMesh: 0
+--- !u!1001 &1046553554
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 738428088}
+    m_TransformParent: {fileID: 1645738278}
     m_Modifications:
     - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
@@ -220,17 +531,17 @@ PrefabInstance:
     - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
@@ -240,7 +551,7 @@ PrefabInstance:
     - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
@@ -260,22 +571,22 @@ PrefabInstance:
     - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -0.0017089844
       objectReference: {fileID: 0}
     - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -0.0025024414
       objectReference: {fileID: 0}
     - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 4143.1475
       objectReference: {fileID: 0}
     - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 2330.5105
       objectReference: {fileID: 0}
     - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
@@ -307,18 +618,33 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.31666666
+      objectReference: {fileID: 0}
+    - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.31666666
+      objectReference: {fileID: 0}
+    - target: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.31666666
+      objectReference: {fileID: 0}
     - target: {fileID: 8733332085289002326, guid: 573eba1f2e30afa409dd978fa0ca41e7,
         type: 3}
       propertyPath: m_Name
-      value: TransitionImage
+      value: TransitionImage (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 573eba1f2e30afa409dd978fa0ca41e7, type: 3}
---- !u!114 &13414115 stripped
+--- !u!114 &1046553555 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8733332085289002323, guid: 573eba1f2e30afa409dd978fa0ca41e7,
     type: 3}
-  m_PrefabInstance: {fileID: 13414114}
+  m_PrefabInstance: {fileID: 1046553554}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -326,13 +652,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b37228bf61353f246af17f846a034d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &13414116 stripped
+--- !u!224 &1046553556 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8733332085289002325, guid: 573eba1f2e30afa409dd978fa0ca41e7,
     type: 3}
-  m_PrefabInstance: {fileID: 13414114}
+  m_PrefabInstance: {fileID: 1046553554}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &142857782
+--- !u!1 &1107187065
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -340,8 +666,52 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 142857784}
-  - component: {fileID: 142857783}
+  - component: {fileID: 1107187067}
+  - component: {fileID: 1107187066}
+  m_Layer: 0
+  m_Name: ARSceneHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1107187066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107187065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f82a0ee28f62baf458eb310ac7fc0c77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionImage: {fileID: 1046553555}
+--- !u!4 &1107187067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107187065}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1274942701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274942703}
+  - component: {fileID: 1274942702}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -349,13 +719,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!108 &142857783
+--- !u!108 &1274942702
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142857782}
+  m_GameObject: {fileID: 1274942701}
   m_Enabled: 1
   serializedVersion: 10
   m_Type: 1
@@ -410,21 +780,21 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!4 &142857784
+--- !u!4 &1274942703
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142857782}
+  m_GameObject: {fileID: 1274942701}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &213406001
+--- !u!1 &1645738274
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -432,477 +802,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 213406002}
-  m_Layer: 0
-  m_Name: ------------------------------
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &213406002
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 213406001}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &422747770
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 422747771}
-  m_Layer: 0
-  m_Name: ------------------------------
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &422747771
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 422747770}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &437396302
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 437396305}
-  - component: {fileID: 437396304}
-  - component: {fileID: 437396303}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &437396303
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 437396302}
-  m_Enabled: 1
---- !u!20 &437396304
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 437396302}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.4862745, g: 0.5372549, b: 0.6509804, a: 0}
-  m_projectionMatrixMode: 2
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 40.42
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 33.07049
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &437396305
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 437396302}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &515082714
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 515082717}
-  - component: {fileID: 515082716}
-  - component: {fileID: 515082715}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &515082715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515082714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &515082716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515082714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &515082717
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515082714}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &631321492
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 631321493}
-  - component: {fileID: 631321496}
-  - component: {fileID: 631321495}
-  - component: {fileID: 631321494}
-  m_Layer: 5
-  m_Name: BackButton (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &631321493
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631321492}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.90586, y: 0.90586, z: 0.90586}
-  m_Children: []
-  m_Father: {fileID: 1533782076}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &631321494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631321492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 631321495}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1485535406}
-        m_MethodName: GoToScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: SceneWira_MainMenu
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &631321495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631321492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c790ba95c41a69f42b4d4e898556510c, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &631321496
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631321492}
-  m_CullTransparentMesh: 0
---- !u!1 &684622820
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 684622821}
-  - component: {fileID: 684622824}
-  - component: {fileID: 684622823}
-  - component: {fileID: 684622822}
-  m_Layer: 5
-  m_Name: NextButton (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &684622821
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684622820}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 837489786}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.945, y: 0.425}
-  m_AnchorMax: {x: 1, y: 0.575}
-  m_AnchoredPosition: {x: -34.927322, y: 0}
-  m_SizeDelta: {x: 69.854614, y: 72.341736}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &684622822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684622820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 684622823}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1485535407}
-        m_MethodName: ShowNextSequence
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: SceneWira_MainMenu
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &684622823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684622820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 39d18600cda4c6c4098e20b5b0d336f6, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &684622824
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684622820}
-  m_CullTransparentMesh: 0
---- !u!1 &738428084
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 738428088}
-  - component: {fileID: 738428087}
-  - component: {fileID: 738428086}
-  - component: {fileID: 738428085}
+  - component: {fileID: 1645738278}
+  - component: {fileID: 1645738277}
+  - component: {fileID: 1645738276}
+  - component: {fileID: 1645738275}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -910,13 +813,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &738428085
+--- !u!114 &1645738275
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 738428084}
+  m_GameObject: {fileID: 1645738274}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
@@ -927,13 +830,13 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &738428086
+--- !u!114 &1645738276
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 738428084}
+  m_GameObject: {fileID: 1645738274}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
@@ -942,24 +845,24 @@ MonoBehaviour:
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
---- !u!223 &738428087
+--- !u!223 &1645738277
 Canvas:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 738428084}
+  m_GameObject: {fileID: 1645738274}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 437396304}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1888868744}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -970,34 +873,29 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!224 &738428088
+--- !u!224 &1645738278
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 738428084}
+  m_GameObject: {fileID: 1645738274}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 8389001}
-  - {fileID: 1535219180}
-  - {fileID: 1533782076}
-  - {fileID: 1548267265}
-  - {fileID: 837489786}
-  - {fileID: 1989736177}
-  - {fileID: 1693095888}
-  - {fileID: 13414116}
+  - {fileID: 2083431912}
+  - {fileID: 2104615735}
+  - {fileID: 1046553556}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &837489785
+--- !u!1 &1701876746
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1005,1907 +903,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 837489786}
-  - component: {fileID: 837489789}
-  - component: {fileID: 837489788}
-  - component: {fileID: 837489787}
+  - component: {fileID: 1701876747}
+  - component: {fileID: 1701876749}
+  - component: {fileID: 1701876748}
   m_Layer: 5
-  m_Name: NextButton
+  m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &837489786
+--- !u!224 &1701876747
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837489785}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.4, y: 1.4, z: 1.4}
-  m_Children:
-  - {fileID: 684622821}
-  m_Father: {fileID: 738428088}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.945, y: 0.425}
-  m_AnchorMax: {x: 1, y: 0.575}
-  m_AnchoredPosition: {x: -272.1599, y: -94.428894}
-  m_SizeDelta: {x: -31.679749, y: -76.892075}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &837489787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837489785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 837489788}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1485535407}
-        m_MethodName: ShowNextSequence
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: SceneWira_MainMenu
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &837489788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837489785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2f13631357c91e54e9ce44af3c99dbab, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &837489789
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837489785}
-  m_CullTransparentMesh: 0
---- !u!1 &894198327
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 894198328}
-  m_Layer: 0
-  m_Name: ------------------------------
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &894198328
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 894198327}
+  m_GameObject: {fileID: 1701876746}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1390732865
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1390732866}
-  - component: {fileID: 1390732867}
-  - component: {fileID: 1390732868}
-  m_Layer: 0
-  m_Name: SoundHandler
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1390732866
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1390732865}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1390732867
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1390732865}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &1390732868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1390732865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7b45844b22ffa74bbd61390ca09dfef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  indexProject: 0
-  audioClp: {fileID: 0}
-  audioSrc: {fileID: 1390732867}
---- !u!1 &1485535404
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1485535405}
-  - component: {fileID: 1485535406}
-  - component: {fileID: 1485535407}
-  m_Layer: 0
-  m_Name: SceneHandler
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1485535405
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1485535404}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1485535406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1485535404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f82a0ee28f62baf458eb310ac7fc0c77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transitionImage: {fileID: 13414115}
---- !u!114 &1485535407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1485535404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1804a61b89b35a4484e659163b1b920, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sequenceNow: 0
-  soundHandler: {fileID: 1390732868}
-  sequencesDatas:
-  - sequenceTitle: 1
-    sequenceType: 0
-    sequenceDetails: 'Before you do the assembly of the freewheel assembly, make
-      sure of the following :'
-    additionDetails: 
-    sequenceAnimation: {fileID: 0}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 1a
-    sequenceType: 0
-    sequenceDetails: Corrosion protective coating of the parts is acceptable or restored
-      (paragraph 63-51)
-    additionDetails: 
-    sequenceAnimation: {fileID: 0}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1485535406}
-          m_MethodName: GoToScene
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: SceneWira_CorrosionProtectiveTreatment
-            m_BoolArgument: 0
-          m_CallState: 2
-    hyperlink: 1
-  - sequenceTitle: 1b
-    sequenceType: 0
-    sequenceDetails: Residual magnetism on the applicable parts is less than 3 oersteds
-      or gauss anywhere on the part (BHT-ALL-SPM, Chapter 6)
-    additionDetails: 
-    sequenceAnimation: {fileID: 0}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1485535406}
-          m_MethodName: GoToScene
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: SceneWira_NonDestructiveInspection
-            m_BoolArgument: 0
-          m_CallState: 2
-    hyperlink: 1
-  - sequenceTitle: 1caution
-    sequenceType: 1
-    sequenceDetails: 'DO NOT TOUCH BEARINGS, BARE METAL, OR BLACK OXIDED PARTS WITH
-      BARE HANDS.
-
-
-      USE WHITE GLOVES. SKIN ACIDS AND SKIN OIL CAN CONTAMINATE
-      THE METAL SURFACE AND CAUSE CORROSION.'
-    additionDetails: 
-    sequenceAnimation: {fileID: 0}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2
-    sequenceType: 0
-    sequenceDetails: 'Assemble the support assembly as follows:'
-    additionDetails: 
-    sequenceAnimation: {fileID: 2294900141618903292, guid: 5dfa6cb62c96a8d44ba44dc13d61fee6,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2a
-    sequenceType: 2
-    sequenceDetails: a. Lubricate the outside diameter of the bearing and the bore
-      of the aft housing assembly with lubricating oil
-    additionDetails: 
-    sequenceAnimation: {fileID: 2448968091102848885, guid: 17c659fc70920f24abe6ee7f65c2913a,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2b
-    sequenceType: 2
-    sequenceDetails: b. Position the aft housing assembly, face down on a support
-      plate, on an arbor press bed.
-    additionDetails: 
-    sequenceAnimation: {fileID: 6623016543248392380, guid: 2019175761f95054cb64bacdfdbe328e,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2bCaution
-    sequenceType: 1
-    sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
-      OR DAMAGE TO THE PART MAY OCCUR.
-    additionDetails: 
-    sequenceAnimation: {fileID: 0}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2c
-    sequenceType: 2
-    sequenceDetails: "c. Heat the aft housing assembly to a maximum of 275\xB0F (135\xB0C)."
-    additionDetails: 
-    sequenceAnimation: {fileID: 4719870391937445516, guid: 34d9f1e81763a7d448f4077b6b4137d8,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2d
-    sequenceType: 2
-    sequenceDetails: d. Install the bearing into the aft housing assembly with workaid
-      item No. 2.
-    additionDetails: 
-    sequenceAnimation: {fileID: 5227361907198564016, guid: 2514ed9187947994494d45700d931cf8,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2e
-    sequenceType: 2
-    sequenceDetails: e. Install the retaining ring
-    additionDetails: 
-    sequenceAnimation: {fileID: 6337915289583216446, guid: fe821f9fc9fe49140b3c7f62d42c0b0c,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2eCaution
-    sequenceType: 1
-    sequenceDetails: DO NOT ALLOW SOLVENTS TO MAKE CONTACT WITH ELASTOMERIC MATERIAL
-      OF THE SEAL LIPS OR DAMAGE WILL OCCUR.
-    additionDetails: 
-    sequenceAnimation: {fileID: 5227361907198564016, guid: 2514ed9187947994494d45700d931cf8,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2f
-    sequenceType: 2
-    sequenceDetails: f. Clean the bore of the aft housing assembly and the outer
-      diameter of a new seal with MEK.
-    additionDetails: 
-    sequenceAnimation: {fileID: 7875446114024994940, guid: 5c52e09c9c538664ea7f2694aa5c3acc,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2g
-    sequenceType: 2
-    sequenceDetails: g. Apply a light coat of sealant to the bore of the aft housing
-      assembly and to the outer diameter of the seal.
-    additionDetails: 
-    sequenceAnimation: {fileID: 8116281636308170860, guid: 0892e0c860cb33c4dbd61780657b9709,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2h
-    sequenceType: 2
-    sequenceDetails: h. Put the aft housing assembly on a support plate on an arbor
-      press bed.
-    additionDetails: 
-    sequenceAnimation: {fileID: 1546124019540470023, guid: cfa2ba2710fcbfd4997be869cb9b98a1,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2i
-    sequenceType: 2
-    sequenceDetails: i. Press the seal into the bore of the aft housing assembly
-      with workaid item No. 2, and smooth the excess sealant
-    additionDetails: 
-    sequenceAnimation: {fileID: 5227361907198564016, guid: 2514ed9187947994494d45700d931cf8,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2j
-    sequenceType: 2
-    sequenceDetails: j. Lubricate the inner race of the bearing and the mating area
-      of the adapter with lubricating oil
-    additionDetails: 
-    sequenceAnimation: {fileID: 1922745389358505245, guid: 4376acb52ea83164dace5ecad141fe02,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2k
-    sequenceType: 2
-    sequenceDetails: k. Lightly coat the lips of the seal and the seal wear path
-      on the adapter with grease.
-    additionDetails: 
-    sequenceAnimation: {fileID: 2814618480392981075, guid: 789da01f32bffd54cbfb951875002225,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2kCaution
-    sequenceType: 1
-    sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
-      OR DAMAGE TO THE PART MAY OCCUR.
-    additionDetails: 
-    sequenceAnimation: {fileID: 5227361907198564016, guid: 2514ed9187947994494d45700d931cf8,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2l
-    sequenceType: 2
-    sequenceDetails: "l. Heat the inner race of the bearing to a\vmaximum of 275\xB0F
-      (135\xB0C)"
-    additionDetails: 
-    sequenceAnimation: {fileID: 294330207273864557, guid: 9a61c6a15d2d75a4c972b0a665e767cb,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2m
-    sequenceType: 2
-    sequenceDetails: m. Install workaid item No. 1 on a support plate on an arbor
-      press bed.
-    additionDetails: 
-    sequenceAnimation: {fileID: 7882762116354061222, guid: 95ff506181430834c82d1ef3cea37067,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2n
-    sequenceType: 2
-    sequenceDetails: n. Put the adapter into position through the seal and position
-      the aft housing assembly over workaid item No. 1.
-    additionDetails: 
-    sequenceAnimation: {fileID: 3905476438178697483, guid: 645743f0a4efda14ea2eb208625c51c7,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2o
-    sequenceType: 2
-    sequenceDetails: o. Press the adapter into the inner race of the bearing
-    additionDetails: 
-    sequenceAnimation: {fileID: 3342758580345030529, guid: 04ed74b179928b449ae71589fd615d3a,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2p
-    sequenceType: 2
-    sequenceDetails: p. Lubricate the new packing with assembly fluid.
-    additionDetails: 
-    sequenceAnimation: {fileID: 555743519250274442, guid: bff30cde3d05d2841b2f0a9fa4711d13,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2q
-    sequenceType: 2
-    sequenceDetails: q. Install the packing on the reducer.
-    additionDetails: 
-    sequenceAnimation: {fileID: 8136971983443382898, guid: 235990c01730d6b41a64519e62ae64df,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 2r
-    sequenceType: 2
-    sequenceDetails: r. Install the reducer on the aft housing assembly. Torque the
-      reducer T.
-    additionDetails: 
-    sequenceAnimation: {fileID: 5353776022195436994, guid: 346eee7fa4ba98f46ab02add93d37bcd,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3
-    sequenceType: 0
-    sequenceDetails: 'Assemble the cap assembly as follows:'
-    additionDetails: 
-    sequenceAnimation: {fileID: 3342758580345030529, guid: 04ed74b179928b449ae71589fd615d3a,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3a
-    sequenceType: 2
-    sequenceDetails: a. Lubricate the outside diameter of the bearing, and the bore
-      of the cap assembly with lubricating oil
-    additionDetails: 
-    sequenceAnimation: {fileID: 6821443087449667239, guid: f273b7b347848a843a6a58493c2ffbd0,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3b
-    sequenceType: 2
-    sequenceDetails: "b. Put the cap assembly on a support plate\von an arbor press
-      bed."
-    additionDetails: 
-    sequenceAnimation: {fileID: 8078347855806142790, guid: 5e520766194d87f4496f5ed5b15f9850,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3bCaution
-    sequenceType: 1
-    sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
-      OR DAMAGE TO THE PART MAY OCCUR.
-    additionDetails: 
-    sequenceAnimation: {fileID: 9017051485405969509, guid: 46fef0d52afb8a948b8ee7c9f68e8edd,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3c
-    sequenceType: 2
-    sequenceDetails: "c. Heat the cap assembly to a maximum of 275\xB0F (135\xB0C)"
-    additionDetails: 
-    sequenceAnimation: {fileID: 9017051485405969509, guid: 46fef0d52afb8a948b8ee7c9f68e8edd,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3d
-    sequenceType: 2
-    sequenceDetails: d. Press the bearing into the cap assembly with workaid item
-      No. 3
-    additionDetails: 
-    sequenceAnimation: {fileID: 5216640362429009492, guid: 99d1c8f1de3bd8b49b8ee879e8edd6f4,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3e
-    sequenceType: 4
-    sequenceDetails: 'e. For the seal Pre TB 206-95-159, install the seal in the
-      cap assembly as follows:'
-    additionDetails: For the seal Pre TB 206-95-159, apply sealant. For the seal
-      Post TB 206-95-159, apply lubricating oil
-    sequenceAnimation: {fileID: 9017051485405969509, guid: 46fef0d52afb8a948b8ee7c9f68e8edd,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3eCaution
-    sequenceType: 1
-    sequenceDetails: DO NOT ALLOW SOLVENTS TO MAKE CONTACT WITH ELASTOMERIC MATERIAL
-      OF THE SEAL LIPS OR DAMAGE WILL OCCUR.
-    additionDetails: 
-    sequenceAnimation: {fileID: 9017051485405969509, guid: 46fef0d52afb8a948b8ee7c9f68e8edd,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3e1
-    sequenceType: 2
-    sequenceDetails: "1. Clean the outside diameter of the new\vseal and the bore
-      of the cap assembly with MEK"
-    additionDetails: 
-    sequenceAnimation: {fileID: 4309455359239867812, guid: 70801ff534a4be643802249ec90a2a0d,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3e2
-    sequenceType: 2
-    sequenceDetails: "2. Apply a light coat of sealant to\v the outer diameter of
-      a new seal and the bore of the cap assembly."
-    additionDetails: 
-    sequenceAnimation: {fileID: 1045331907464200942, guid: e5bcb15332f77614c95e82601b5d9477,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3e3
-    sequenceType: 2
-    sequenceDetails: 3. Put the cap assembly on a support plate on an arbor press
-      bed.
-    additionDetails: 
-    sequenceAnimation: {fileID: 3846058917987891840, guid: 62b8edb159d1c4f4181cca7029247f17,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3e4
-    sequenceType: 2
-    sequenceDetails: "4. Put the seal over the bore of the cap assembly. Put workaid
-      item No. 3 over the seal and\vpress the seal into the cap assembly"
-    additionDetails: 
-    sequenceAnimation: {fileID: 3994725151261767892, guid: 9a0eb16b85f88104ca8d6e903bb7a3ce,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3e4Caution
-    sequenceType: 1
-    sequenceDetails: 'DO NOT ALLOW SOLVENTS TO MAKE CONTACT WITH ELASTOMERIC MATERIAL
-      OF THE SEAL LIPS OR DAMAGE WILL OCCUR.
-
-'
-    additionDetails: 
-    sequenceAnimation: {fileID: 9017051485405969509, guid: 46fef0d52afb8a948b8ee7c9f68e8edd,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3e5
-    sequenceType: 2
-    sequenceDetails: "5. Fill the gap at the mating line between\vthe seal outside
-      diameter and the cap assembly liner with sealant."
-    additionDetails: 
-    sequenceAnimation: {fileID: 2928773891828962238, guid: d01ad23d05224cd4197797920ecc2215,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3e6
-    sequenceType: 2
-    sequenceDetails: "6. Clean the excess sealant from the\vretaining ring groove
-      in the bore of the cap assembly with MEK."
-    additionDetails: 
-    sequenceAnimation: {fileID: 5923599210416409847, guid: 1751de515354ffa478e5cdc3cbac0786,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3e7
-    sequenceType: 2
-    sequenceDetails: 7. Install the retaining ring.
-    additionDetails: 
-    sequenceAnimation: {fileID: 3883556253922278836, guid: 92a7a02bc94545348b1942bfd47e7fec,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3e7Caution
-    sequenceType: 1
-    sequenceDetails: 'DO NOT ALLOW SEALANT TO MAKE CONTACT WITH ELASTOMERIC MATERIAL
-      OF THE SEAL LIPS OR DAMAGE WILL OCCUR.
-
-'
-    additionDetails: 
-    sequenceAnimation: {fileID: 9017051485405969509, guid: 46fef0d52afb8a948b8ee7c9f68e8edd,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 3e8
-    sequenceType: 2
-    sequenceDetails: 8. Overcoat the retaining ring and the face of the seal with
-      sealant.
-    additionDetails: 
-    sequenceAnimation: {fileID: 5497529855254188918, guid: 16201e71e7481654c848a3f2f8fedc83,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4
-    sequenceType: 0
-    sequenceDetails: '4. Assemble the outer race shaft assembly as follows:'
-    additionDetails: 
-    sequenceAnimation: {fileID: 9017051485405969509, guid: 46fef0d52afb8a948b8ee7c9f68e8edd,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4a
-    sequenceType: 2
-    sequenceDetails: a. Lubricate the bore of the outer race shaft and bearing with
-      lubricating oil
-    additionDetails: 
-    sequenceAnimation: {fileID: 3013995160600894058, guid: dc68b076cd5f164419eee29e020e9ea3,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4b
-    sequenceType: 2
-    sequenceDetails: b. Put the outer race shaft on a support plate on an arbor press
-      bed.
-    additionDetails: 
-    sequenceAnimation: {fileID: 8793275558361341955, guid: b208f81ac6da6dd4c91fb8d592b8b882,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4bCaution
-    sequenceType: 1
-    sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
-      OR DAMAGE TO THE PART MAY OCCUR.
-    additionDetails: 
-    sequenceAnimation: {fileID: 3013995160600894058, guid: dc68b076cd5f164419eee29e020e9ea3,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4c
-    sequenceType: 2
-    sequenceDetails: "c. Heat the outer race shaft to a maximum of 275\xB0F (135\xB0C)."
-    additionDetails: 
-    sequenceAnimation: {fileID: 6088846725810257991, guid: 177c88397b4e034488780282851def46,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4d
-    sequenceType: 2
-    sequenceDetails: d. Put the bearing inside the bore of the outer race shaft with
-      workaid item No. 2 over the bearing.
-    additionDetails: 
-    sequenceAnimation: {fileID: 8013244960291782406, guid: ddf4d326abb45cb448051d71f5929b73,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4e
-    sequenceType: 2
-    sequenceDetails: "e. Press the bearing in the bore of the outer\vrace shaft with
-      workaid item No. 2."
-    additionDetails: 
-    sequenceAnimation: {fileID: 5223281548990719564, guid: 323b71eddd8c7eb4cb56d33a5a9861cc,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4f
-    sequenceType: 2
-    sequenceDetails: f. Install the retaining ring.
-    additionDetails: 
-    sequenceAnimation: {fileID: 4090299881555046487, guid: da7a1f493d5352442825298cac1a0fd8,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4g
-    sequenceType: 2
-    sequenceDetails: g. Examine the clutch assembly to make sure that all sprags
-      are correctly positioned.
-    additionDetails: 
-    sequenceAnimation: {fileID: 4743991128469795447, guid: a4247d54acd77994fbc21808a3aadc06,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4h
-    sequenceType: 2
-    sequenceDetails: h. Clean the clutch assembly and the mating area in the outer
-      race shaft with MEK, and dry with low pressure filtered compressed air.
-    additionDetails: 
-    sequenceAnimation: {fileID: 7665644651186537309, guid: 776d7b504b0f54440b16cdd47daeef56,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4i
-    sequenceType: 2
-    sequenceDetails: "i. Lubricate the clutch assembly and the\vouter race shaft
-      with lubricating oil"
-    additionDetails: 
-    sequenceAnimation: {fileID: 6711698452728729824, guid: 1c821f2aac97c574eafc76cd44d481ff,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4iCaution
-    sequenceType: 1
-    sequenceDetails: MAKE SURE THE ARROW ETCHED ON THE CAGE FLANGE OF THE CLUTCH
-      ASSEMBLY POINTS CLOCKWISE, AS VIEWED FROM THE OPEN END OF THE OUTER RACE SHAFT
-      OR DAMAGE MAY OCCUR.
-    additionDetails: 
-    sequenceAnimation: {fileID: 8793275558361341955, guid: b208f81ac6da6dd4c91fb8d592b8b882,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4iNote
-    sequenceType: 3
-    sequenceDetails: A packing of 2.5 inches (63 mm) in diameter may be put around
-      the clutch assembly to facilitate the assembly. Discard the packing after installation.
-    additionDetails: 
-    sequenceAnimation: {fileID: 8793275558361341955, guid: b208f81ac6da6dd4c91fb8d592b8b882,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4j
-    sequenceType: 2
-    sequenceDetails: "j. Hand press the clutch assembly into the\vouter race shaft.
-      Once the sprags are engaged on the race of the outer race shaft, remove the
-      packing and slide the clutch assembly until it bottoms out."
-    additionDetails: 
-    sequenceAnimation: {fileID: 9204569076198157648, guid: 0d1de4069254a3649b7b1b5be1a0d07f,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4k
-    sequenceType: 2
-    sequenceDetails: k. Lubricate the plate with lubricating oil
-    additionDetails: 
-    sequenceAnimation: {fileID: 3054401397165238502, guid: 6399d3778bbdc13419de59be6f2afb3d,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4l
-    sequenceType: 2
-    sequenceDetails: l. Install the plate in the outer race shaft with the chamfered
-      outer edge next to the clutch assembly
-    additionDetails: 
-    sequenceAnimation: {fileID: 1234318040330182782, guid: 54136120ffc96764f80f01346b104d5a,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4m
-    sequenceType: 2
-    sequenceDetails: m. Lubricate the inside diameter of the outer race shaft and
-      the outer race of the bearing with lubricating oil
-    additionDetails: 
-    sequenceAnimation: {fileID: 601719639567222976, guid: 4fba66a6545e5bb4c857648d177a3786,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4n
-    sequenceType: 2
-    sequenceDetails: n. Position the outer race shaft in the chamfered inside diameter
-      of workaid item No. 4 on an arbor press bed.
-    additionDetails: 
-    sequenceAnimation: {fileID: 1504616331185495452, guid: de16e7895d2c8254a8039c3be0791102,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4nCaution
-    sequenceType: 1
-    sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
-      OR DAMAGE TO THE PART MAY OCCUR.
-    additionDetails: 
-    sequenceAnimation: {fileID: 8013244960291782406, guid: ddf4d326abb45cb448051d71f5929b73,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4o
-    sequenceType: 2
-    sequenceDetails: "o. Heat the outer race shaft to a maximum of 275\xB0F (135\xB0C)."
-    additionDetails: 
-    sequenceAnimation: {fileID: 4204512733749090581, guid: d1df4b4e331ef474da9c76ed483eecb6,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4p
-    sequenceType: 2
-    sequenceDetails: p. Press the bearing into the bore of the outer race shaft with
-      workaid item No. 3.
-    additionDetails: 
-    sequenceAnimation: {fileID: 8871987645552214937, guid: 5cace659dd177be468950f1f70d2c217,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4q
-    sequenceType: 2
-    sequenceDetails: q. Install the retaining ring.
-    additionDetails: 
-    sequenceAnimation: {fileID: 5503116631376634975, guid: 048553d528b30aa4b95d50b12700a421,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4qNote1
-    sequenceType: 3
-    sequenceDetails: If the freewheel assembly is equipped with inner race shaft
-      206-040-222-005, omit step 5
-    additionDetails: 
-    sequenceAnimation: {fileID: 7665644651186537309, guid: 776d7b504b0f54440b16cdd47daeef56,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 4qNote2
-    sequenceType: 3
-    sequenceDetails: Make sure that the vent valve housing 206-040-249-001 was modified
-      per instruction provided in paragraph 63-49.
-    additionDetails: 
-    sequenceAnimation: {fileID: 6711698452728729824, guid: 1c821f2aac97c574eafc76cd44d481ff,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 5
-    sequenceType: 0
-    sequenceDetails: 'Install the plug or the vent valve housing as applicable, as
-      follows:'
-    additionDetails: 
-    sequenceAnimation: {fileID: 7665644651186537309, guid: 776d7b504b0f54440b16cdd47daeef56,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 5a
-    sequenceType: 2
-    sequenceDetails: a. Lubricate the new packing with assembly fluid and install
-      the packing on the plug or vent valve housing, as applicable.
-    additionDetails: 
-    sequenceAnimation: {fileID: 592341932996560061, guid: e76c98ca3ea0ff54096cb136d3da253a,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 5b
-    sequenceType: 2
-    sequenceDetails: b. Install the plug or vent valve housing, as applicable, into
-      the inner race shaft.
-    additionDetails: 
-    sequenceAnimation: {fileID: 8000348194904410741, guid: 67544a97899c8114282bfacf218d4532,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 5c
-    sequenceType: 2
-    sequenceDetails: c. Install the retaining ring.
-    additionDetails: 
-    sequenceAnimation: {fileID: 7612850577448528859, guid: 38ac005aecfffb44fbd0dfca8b4b5c12,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 6
-    sequenceType: 0
-    sequenceDetails: 'Assemble the freewheel shaft assembly as follows:'
-    additionDetails: 
-    sequenceAnimation: {fileID: 3054401397165238502, guid: 6399d3778bbdc13419de59be6f2afb3d,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 6a
-    sequenceType: 2
-    sequenceDetails: a. Put the inner race shaft vertically on a table with the flange
-      down.
-    additionDetails: 
-    sequenceAnimation: {fileID: 6941511176811133593, guid: f7d35d5de91d59f42b0c3bd0c594eeff,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 6b
-    sequenceType: 4
-    sequenceDetails: 'b. For freewheel assembly Post TB 206-95-159, install the cap
-      assembly on the inner race shaft as follows:'
-    additionDetails: For the seal Pre TB 206-95-159, apply a light coat of grease
-      to the seal lips. For the seal Post TB 206-95-159, apply a light coat of lubricating
-      oil to the seal lips.
-    sequenceAnimation: {fileID: 601719639567222976, guid: 4fba66a6545e5bb4c857648d177a3786,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 6b1
-    sequenceType: 2
-    sequenceDetails: 1. Lubricate all race surfaces of the inner race shaft with
-      lubricating oil
-    additionDetails: 
-    sequenceAnimation: {fileID: 6764798177760551451, guid: 80ae6e888d4817b4ba0a009c18630092,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 6b2
-    sequenceType: 2
-    sequenceDetails: (2) Remove and discard the protective cap from the seal.
-    additionDetails: 
-    sequenceAnimation: {fileID: 7064061537972688791, guid: 397e9bd852883d049a49f20772f3bf94,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 6b3
-    sequenceType: 2
-    sequenceDetails: (3) Apply a light coat of lubricating oil to the lips of the
-      seal.
-    additionDetails: 
-    sequenceAnimation: {fileID: 5107157301334828727, guid: 529f21e54789cfc4082917d19b278c8a,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 6b4
-    sequenceType: 2
-    sequenceDetails: (4) Carefully lower the cap assembly over the inner race shaft
-      until it bottoms out against the flange.
-    additionDetails: 
-    sequenceAnimation: {fileID: 2378513817997686174, guid: f54aaba2c224a4141ab1108d61e45e64,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 6d
-    sequenceType: 2
-    sequenceDetails: d. Lubricate all surfaces inside the outer race shaft with lubricating
-      oil
-    additionDetails: 
-    sequenceAnimation: {fileID: 8914308416842726621, guid: 08cce9e8ca147754f823863a8335b236,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 6e
-    sequenceType: 2
-    sequenceDetails: e. Insert the inner race shaft onto the outer race shaft.
-    additionDetails: 
-    sequenceAnimation: {fileID: 1369956019999896444, guid: 59d43e98298912a4b8347e8b5a182a35,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 6f
-    sequenceType: 2
-    sequenceDetails: f. To facilitate the engagement of the sprag over the races
-      of the inner race shaft, as you insert, rotate the outer race shaft counterclockwise.
-      Keep inserting until it bottoms out.
-    additionDetails: 
-    sequenceAnimation: {fileID: 1420619936261399964, guid: 77990289e7121984c85913817d352e19,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 6g
-    sequenceType: 2
-    sequenceDetails: g. Put the chamfered edge of workaid item No. 4 against the
-      outer race shaft and position them on an arbor press bed.
-    additionDetails: 
-    sequenceAnimation: {fileID: 3982361410847778760, guid: 53021a38e25afcd4ea9af376b67e54dd,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 6gCaution
-    sequenceType: 1
-    sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
-      OR DAMAGE TO THE PART MAY OCCUR.
-    additionDetails: 
-    sequenceAnimation: {fileID: 592341932996560061, guid: e76c98ca3ea0ff54096cb136d3da253a,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 6h
-    sequenceType: 2
-    sequenceDetails: "h. Heat the outer race shaft to a maximum of 275\xB0F (135\xB0C)."
-    additionDetails: 
-    sequenceAnimation: {fileID: 3620215155613753799, guid: d23629d96a5fac84284dc1774f2d4367,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 6i
-    sequenceType: 2
-    sequenceDetails: i. Press the inner race shaft into the outer race shaft.
-    additionDetails: 
-    sequenceAnimation: {fileID: 6455647570852070989, guid: 4d3a68258dc641641907543c0fc2c02e,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 7
-    sequenceType: 0
-    sequenceDetails: '7. Do an operational check of the clutch assembly as follows:'
-    additionDetails: 
-    sequenceAnimation: {fileID: 7612850577448528859, guid: 38ac005aecfffb44fbd0dfca8b4b5c12,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 7a
-    sequenceType: 2
-    sequenceDetails: a. Hold the flange of the inner race shaft and rotate the outer
-      race shaft counterclockwise. The outer race shaft should rotate freely, showing
-      the clutch assembly is unlocked.
-    additionDetails: 
-    sequenceAnimation: {fileID: 7816442873811946275, guid: 9c775f9cda9ff744983df6d2032f03fd,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 7b
-    sequenceType: 2
-    sequenceDetails: b. Hold the flange of the inner race shaft and rotate the outer
-      race shaft clockwise. The outer race shaft should not turn, showing the clutch
-      assembly is locked.
-    additionDetails: 
-    sequenceAnimation: {fileID: 6077501325064851027, guid: 18a215b10814b9f468a48a15cb4a43cc,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 7c
-    sequenceType: 0
-    sequenceDetails: c. If the clutch assembly does not operate correctly, disassemble
-      the freewheel shaft assembly and the outer shaft (paragraph 63-35) to access
-      the clutch assembly.
-    additionDetails: 
-    sequenceAnimation: {fileID: 0}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1485535406}
-          m_MethodName: GoToScene
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: SceneWira_ClutchDanger
-            m_BoolArgument: 0
-          m_CallState: 2
-    hyperlink: 1
-  - sequenceTitle: 7d
-    sequenceType: 0
-    sequenceDetails: "d. Determine the cause of the incorrect operation of the clutch
-      assembly. Possible causes are: (1) One or more sprags are installed incorrectly.
-      (2) The clutch is installed backwards. (4) Discrepancies with the clutch assembly
-      meeting races on the inner race or outer race shafts.\r"
-    additionDetails: 
-    sequenceAnimation: {fileID: 0}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 7e
-    sequenceType: 0
-    sequenceDetails: e. Correct the causes for the incorrect operation of the clutch
-      assembly, reassemble the freewheel shaft assembly, and recheck for correct
-      operation of the clutch assembly
-    additionDetails: 
-    sequenceAnimation: {fileID: 7612850577448528859, guid: 38ac005aecfffb44fbd0dfca8b4b5c12,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 8
-    sequenceType: 0
-    sequenceDetails: '8. Assemble the housing assembly as follows :'
-    additionDetails: 
-    sequenceAnimation: {fileID: 7612850577448528859, guid: 38ac005aecfffb44fbd0dfca8b4b5c12,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 8a
-    sequenceType: 2
-    sequenceDetails: a. Lubricate the new packing with assembly fluid. Install the
-      new packing on the union and install the union onto the housing assembly or
-      fitting, as applicable. Torque the union
-    additionDetails: 
-    sequenceAnimation: {fileID: 5089141334310586099, guid: ca8adafa1d48a804b9d2d9b30cd23f9e,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 8b
-    sequenceType: 2
-    sequenceDetails: b.  Install the packing on the self-closing valve and install
-      the self-closing valve into the housing assembly or fitting, as applicable.
-      Torque the self-closing valve T.
-    additionDetails: 
-    sequenceAnimation: {fileID: 8649480718487257999, guid: bbc788459c5319c41bd7e38041eb4b91,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 8c
-    sequenceType: 2
-    sequenceDetails: c. Secure the self-closing valve to the housing assembly or
-      bolt, as applicable, with lockwire. Lubricate the new packing with assembly
-      fluid and install on the chip detector.
-    additionDetails: 
-    sequenceAnimation: {fileID: 88581914651594363, guid: 03834dd540d9e2343aeecdaea0fc6839,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 8cCaution
-    sequenceType: 1
-    sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
-      OR DAMAGE TO THE PART MAY OCCUR
-    additionDetails: 
-    sequenceAnimation: {fileID: 0}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 8h
-    sequenceType: 2
-    sequenceDetails: "h. Heat the housing assembly to a maximum of 275\xB0 (135\xB0C)."
-    additionDetails: 
-    sequenceAnimation: {fileID: 1996867691744110059, guid: c8de57117ac458440a29e3590ea98886,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 8i
-    sequenceType: 2
-    sequenceDetails: i. Install the ring inside the housing assembly and make sure
-      to align the holes on the ring with the holes in the housing assembly
-    additionDetails: 
-    sequenceAnimation: {fileID: 5846504179271433175, guid: d37e2e0b40e954d4e853df100e266a60,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 9
-    sequenceType: 0
-    sequenceDetails: "9. Build up the freewheel assembly as follows :\r"
-    additionDetails: 
-    sequenceAnimation: {fileID: 7612850577448528859, guid: 38ac005aecfffb44fbd0dfca8b4b5c12,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 9Note
-    sequenceType: 3
-    sequenceDetails: 'If you do not install the freewheel assembly on the engine
-      assembly at this time, keep the packings and gasket with the freewheel assembly
-      in the original packaging until installation.
-
-'
-    additionDetails: 
-    sequenceAnimation: {fileID: 7612850577448528859, guid: 38ac005aecfffb44fbd0dfca8b4b5c12,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 9a
-    sequenceType: 2
-    sequenceDetails: a. Apply lubricating oil to the freewheel shaft assembly.
-    additionDetails: 
-    sequenceAnimation: {fileID: 5100079652791902243, guid: e30ce126bd2c2254189b440533c16bd4,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 9b
-    sequenceType: 2
-    sequenceDetails: b. Install the housing assembly onto the freewheel shaft assembly
-      until it bottoms out on the cap assembly
-    additionDetails: 
-    sequenceAnimation: {fileID: 6058643791526472573, guid: 3c7b648962ddbb6418fd82ff67124f28,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 9bNote
-    sequenceType: 3
-    sequenceDetails: Do not tighten the nuts at this time, they will have to be removed
-      for the installation of the freewheel assembly on the helicopter.
-    additionDetails: 
-    sequenceAnimation: {fileID: 7612850577448528859, guid: 38ac005aecfffb44fbd0dfca8b4b5c12,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 9c
-    sequenceType: 2
-    sequenceDetails: c. For the freewheel assemblies 206-040-230, secure the housing
-      assembly with the aluminum washers, steel washers, and nuts.
-    additionDetails: 
-    sequenceAnimation: {fileID: 7351447309054797751, guid: 97cb4206d084c7a4e8e263464d3a3ea9,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 9d
-    sequenceType: 2
-    sequenceDetails: d. Apply lubricating oil to the inner race shaft end splines
-      and adapter inner splines.
-    additionDetails: 
-    sequenceAnimation: {fileID: 7140881086531741530, guid: 944bfa2c007ee8b4ca636b34431194a0,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 9e
-    sequenceType: 2
-    sequenceDetails: e. Install the support assembly onto the freewheel shaft assembly.
-    additionDetails: 
-    sequenceAnimation: {fileID: 5632114940165533264, guid: 381d3add530f0f44498745d1bf86a3bd,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 9eNote
-    sequenceType: 3
-    sequenceDetails: Do not tighten the nut now, it will have to be removed for the
-      installation of the freewheel assembly on the engine gearbox.
-    additionDetails: 
-    sequenceAnimation: {fileID: 0}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 9f
-    sequenceType: 2
-    sequenceDetails: f. Install the washer and the nut on the inner shaft of the
-      freewheel shaft assembly. Hand tighten the nut.
-    additionDetails: 
-    sequenceAnimation: {fileID: 3906151881784088468, guid: c19983ca822a9e2419cd2373a8cf444e,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 10
-    sequenceType: 2
-    sequenceDetails: 10. Clean all excess lubricant from the freewheel assembly with
-      a clean cloth.
-    additionDetails: 
-    sequenceAnimation: {fileID: 3519816290526197751, guid: 412b880aa43aab54d93a3a10cc53665f,
-      type: 3}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  - sequenceTitle: 11
-    sequenceType: 0
-    sequenceDetails: 11. Update the Historical Service Records with the overhaul
-      of the freewheel assembly.
-    additionDetails: 
-    sequenceAnimation: {fileID: 0}
-    thisHyperlink: {fileID: 0}
-    onClickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hyperlink: 0
-  sequenceTextNormal: {fileID: 5616225204930101574, guid: e0d2920d6adf6a341bcfefdd4fe2a08d,
-    type: 3}
-  sequenceTextCaution: {fileID: 6000075751668427975, guid: eedeb91cefcfc24419b3f7f8aab27eda,
-    type: 3}
-  sequenceTextAnimation: {fileID: 3641320713549951315, guid: 3cce9acd83bca514298d770874cd45ca,
-    type: 3}
-  sequenceTextNote: {fileID: 6000075751668427975, guid: 229d4afa56e90a147a5012ac34f12073,
-    type: 3}
-  sequenceTextAddition: {fileID: 3037195415490717153, guid: a3ac9449b3f391b4791d5c51bf7e15a0,
-    type: 3}
-  hyperlinkButton: {fileID: 8061869149730426265, guid: 1ba6a7622bfe20347b8850a8d9714395,
-    type: 3}
-  contentContainerParent: {fileID: 1989736176}
-  additionContainerParent: {fileID: 1693095887}
-  objectSpawnParent: {fileID: 1868024994}
-  button: {fileID: 0}
-  nextButton: {fileID: 837489785}
-  prevButton: {fileID: 1548267264}
---- !u!1 &1533782075
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1533782076}
-  - component: {fileID: 1533782079}
-  - component: {fileID: 1533782078}
-  - component: {fileID: 1533782077}
-  m_Layer: 5
-  m_Name: BackButton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1533782076
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533782075}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1573068, y: 1.1573068, z: 1.1573068}
-  m_Children:
-  - {fileID: 631321493}
-  m_Father: {fileID: 738428088}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -843, y: 420}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1533782077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533782075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1533782078}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1485535406}
-        m_MethodName: GoToScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: SceneWira_MainMenu
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1533782078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533782075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2f13631357c91e54e9ce44af3c99dbab, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1533782079
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533782075}
-  m_CullTransparentMesh: 0
---- !u!1 &1535219179
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1535219180}
-  - component: {fileID: 1535219182}
-  - component: {fileID: 1535219181}
-  m_Layer: 5
-  m_Name: TitleCard
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1535219180
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535219179}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 738428088}
+  m_Father: {fileID: 2104615735}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.3, y: 0.75}
-  m_AnchorMax: {x: 0.67, y: 0.95}
-  m_AnchoredPosition: {x: 28.800049, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -50, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1535219181
+--- !u!114 &1701876748
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535219179}
+  m_GameObject: {fileID: 1701876746}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -2918,18 +951,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Assembly Sequence
+  m_text: Start Assembly
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 36bbea5542ae06b41856329777bc9572, type: 2}
-  m_sharedMaterial: {fileID: 7973028256138189090, guid: 36bbea5542ae06b41856329777bc9572,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4282466625
+  m_fontColor: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2946,12 +978,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 20
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMin: 10
+  m_fontSizeMax: 20
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -2962,7 +994,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -2988,15 +1020,178 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1535219182
+--- !u!222 &1701876749
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535219179}
+  m_GameObject: {fileID: 1701876746}
   m_CullTransparentMesh: 0
---- !u!1 &1548267264
+--- !u!43 &1706876177
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ImageTargetMesh97392
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200020001000300
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 4
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 128
+    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+--- !u!1 &1888868740
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3004,44 +1199,221 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1548267265}
-  - component: {fileID: 1548267268}
-  - component: {fileID: 1548267267}
-  - component: {fileID: 1548267266}
-  m_Layer: 5
-  m_Name: PrevButton
-  m_TagString: Untagged
+  - component: {fileID: 1888868745}
+  - component: {fileID: 1888868744}
+  - component: {fileID: 1888868743}
+  - component: {fileID: 1888868742}
+  - component: {fileID: 1888868741}
+  m_Layer: 0
+  m_Name: ARCamera
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1548267265
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548267264}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.4, y: 1.4, z: 1.4}
-  m_Children:
-  - {fileID: 2137909653}
-  m_Father: {fileID: 738428088}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.425}
-  m_AnchorMax: {x: 0.055, y: 0.575}
-  m_AnchoredPosition: {x: 272.15918, y: -94.428894}
-  m_SizeDelta: {x: -31.679993, y: -76.892075}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1548267266
+--- !u!114 &1888868741
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548267264}
+  m_GameObject: {fileID: 1888868740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c47f92041efbb4b429a4eafca855ebe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1888868742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888868740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1826476478, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mWorldCenterMode: 2
+  mWorldCenter: {fileID: 0}
+--- !u!81 &1888868743
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888868740}
+  m_Enabled: 1
+--- !u!20 &1888868744
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888868740}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.05
+  far clip plane: 2000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1888868745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888868740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2020526902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2020526905}
+  - component: {fileID: 2020526904}
+  - component: {fileID: 2020526903}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2020526903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020526902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &2020526904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020526902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &2020526905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020526902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2083431911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2083431912}
+  - component: {fileID: 2083431915}
+  - component: {fileID: 2083431914}
+  - component: {fileID: 2083431913}
+  m_Layer: 5
+  m_Name: BackButton (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2083431912
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083431911}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.1573068, y: 1.1573068, z: 1.1573068}
+  m_Children:
+  - {fileID: 829427249}
+  m_Father: {fileID: 1645738278}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -843, y: 420}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2083431913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083431911}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -3074,13 +1446,13 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1548267267}
+  m_TargetGraphic: {fileID: 2083431914}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1485535407}
-        m_MethodName: ShowPrevSequence
-        m_Mode: 1
+      - m_Target: {fileID: 1107187066}
+        m_MethodName: GoToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3089,13 +1461,13 @@ MonoBehaviour:
           m_StringArgument: SceneWira_MainMenu
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1548267267
+--- !u!114 &2083431914
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548267264}
+  m_GameObject: {fileID: 2083431911}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -3118,15 +1490,15 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &1548267268
+--- !u!222 &2083431915
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548267264}
+  m_GameObject: {fileID: 2083431911}
   m_CullTransparentMesh: 0
---- !u!1 &1693095887
+--- !u!1 &2104615734
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3134,265 +1506,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1693095888}
+  - component: {fileID: 2104615735}
+  - component: {fileID: 2104615738}
+  - component: {fileID: 2104615737}
+  - component: {fileID: 2104615736}
   m_Layer: 5
-  m_Name: UIContentAdditionContainer
+  m_Name: StartAssembly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1693095888
+  m_IsActive: 0
+--- !u!224 &2104615735
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1693095887}
+  m_GameObject: {fileID: 2104615734}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 738428088}
-  m_RootOrder: 6
+  m_Children:
+  - {fileID: 790685598}
+  - {fileID: 1701876747}
+  m_Father: {fileID: 1645738278}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.15, y: 0.025}
-  m_AnchorMax: {x: 0.85, y: 0.675}
-  m_AnchoredPosition: {x: -0.0015258789, y: 156.20001}
-  m_SizeDelta: {x: 0.0030517578, y: -312.4278}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1831616790
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1831616792}
-  - component: {fileID: 1831616791}
-  m_Layer: 0
-  m_Name: Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!108 &1831616791
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831616790}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 2
-  m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 5
-  m_Range: 10
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!4 &1831616792
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831616790}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: -1.03, y: 2.58, z: 5.56}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1868024994
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1868024995}
-  m_Layer: 0
-  m_Name: SpawnPos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1868024995
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1868024994}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1989736176
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1989736177}
-  m_Layer: 5
-  m_Name: UIContentCommonContainer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1989736177
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1989736176}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 738428088}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.15, y: 0.025}
-  m_AnchorMax: {x: 0.85, y: 0.675}
+  m_AnchorMin: {x: 0.3, y: 0.4}
+  m_AnchorMax: {x: 0.7, y: 0.6}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &2127401205
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2127401206}
-  m_Layer: 0
-  m_Name: ------------------------------
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2127401206
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2127401205}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2137909652
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2137909653}
-  - component: {fileID: 2137909656}
-  - component: {fileID: 2137909655}
-  - component: {fileID: 2137909654}
-  m_Layer: 5
-  m_Name: PrevButton (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2137909653
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137909652}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1548267265}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.425}
-  m_AnchorMax: {x: 0.055, y: 0.575}
-  m_AnchoredPosition: {x: 34.92723, y: 0}
-  m_SizeDelta: {x: 69.85445, y: 72.341736}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2137909654
+--- !u!114 &2104615736
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137909652}
+  m_GameObject: {fileID: 2104615734}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -3414,39 +1566,40 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: d933e3d481575ca4b8c63bf881596b5f,
+      type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: d933e3d481575ca4b8c63bf881596b5f, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: d933e3d481575ca4b8c63bf881596b5f, type: 3}
+    m_DisabledSprite: {fileID: 21300000, guid: 3e0600b259b542b4c87df4a5b011cb3c, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 2137909655}
+  m_TargetGraphic: {fileID: 2104615737}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1485535407}
-        m_MethodName: ShowPrevSequence
-        m_Mode: 1
+      - m_Target: {fileID: 1107187066}
+        m_MethodName: GoToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: SceneWira_MainMenu
+          m_StringArgument: SceneWira_AssemblySequence
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2137909655
+--- !u!114 &2104615737
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137909652}
+  m_GameObject: {fileID: 2104615734}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -3459,7 +1612,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 56ce0c4cbf53ea94491055cf10ac4835, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5cae5725cc9ae1f498008fe3164c5a3c, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3469,11 +1622,11 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &2137909656
+--- !u!222 &2104615738
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137909652}
+  m_GameObject: {fileID: 2104615734}
   m_CullTransparentMesh: 0

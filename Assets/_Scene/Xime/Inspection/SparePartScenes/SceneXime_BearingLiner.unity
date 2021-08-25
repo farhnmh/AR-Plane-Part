@@ -4456,17 +4456,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   componentName: Bearing Liner
   spawnPoint: {fileID: 1868024994}
-  component:
-  - {fileID: 2119956772}
-  - {fileID: 1797083382}
-  - {fileID: 340581831}
-  - {fileID: 673854470}
-  - {fileID: 1623655840}
-  - {fileID: 1485734384}
-  - {fileID: 1978752205}
-  - {fileID: 0}
-  - {fileID: 1428666033}
-  - {fileID: 2136688192}
 --- !u!1 &1485734384
 GameObject:
   m_ObjectHideFlags: 0
@@ -5937,7 +5926,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.025, y: 0.85}
   m_AnchorMax: {x: 0.075, y: 0.95}
-  m_AnchoredPosition: {x: 499, y: -858}
+  m_AnchoredPosition: {x: 0, y: -163}
   m_SizeDelta: {x: 0.036132812, y: 0.04058838}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1850807920

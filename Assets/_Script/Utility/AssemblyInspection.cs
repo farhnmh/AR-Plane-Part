@@ -90,6 +90,14 @@ public class AssemblyInspection : MonoBehaviour
                 ABSeriesMenu.SetActive(false);
                 LSeriesMenu.SetActive(true);
                 break;
+
+            case 7:
+                objectEvent[menuIndex].Invoke();
+                welcomeMenu.SetActive(false);
+                chooseSeriesMenu.SetActive(false);
+                ABSeriesMenu.SetActive(false);
+                LSeriesMenu.SetActive(true);
+                break;
         }
     }
 }

@@ -2656,7 +2656,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.025, y: 0.85}
   m_AnchorMax: {x: 0.075, y: 0.95}
-  m_AnchoredPosition: {x: 499, y: -858}
+  m_AnchoredPosition: {x: 0, y: -163}
   m_SizeDelta: {x: 0.036132812, y: 0.04058838}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1062677260
@@ -4143,14 +4143,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   componentName: Mast Nut
   spawnPoint: {fileID: 1868024994}
-  component:
-  - {fileID: 1952834226}
-  - {fileID: 919132148717192751}
-  - {fileID: 687252375}
-  - {fileID: 1940740627}
-  - {fileID: 196654149}
-  - {fileID: 1816393446}
-  - {fileID: 773904907}
 --- !u!1 &1533782075
 GameObject:
   m_ObjectHideFlags: 0

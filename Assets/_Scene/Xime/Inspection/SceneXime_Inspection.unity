@@ -1111,13 +1111,14 @@ MonoBehaviour:
   soundHandler: {fileID: 1384956177}
   sequencesDatas:
   - sequenceTitle: 1
-    sequenceType: 0
+    sequenceType: 2
     sequenceDetails: 1. Review of the historical service record (HSR) of the mast
       assembly for a document account of an incident or accident that . would require
       a conditional inpection. Refer to the applicable Maintenance Manual, Chapter
       5.
     additionDetails: 
-    sequenceAnimation: {fileID: 0}
+    sequenceAnimation: {fileID: 155944254871054705, guid: cfcf92af411de5c479a4056c6d4823bb,
+      type: 3}
     thisHyperlink: {fileID: 0}
     onClickEvent:
       m_PersistentCalls:
@@ -1272,13 +1273,14 @@ MonoBehaviour:
           m_CallState: 2
     hyperlink: 1
   - sequenceTitle: 5
-    sequenceType: 0
+    sequenceType: 2
     sequenceDetails: '5. Examine the attaching hardware for condition.
 
       Replace
       as required.'
     additionDetails: 
-    sequenceAnimation: {fileID: 0}
+    sequenceAnimation: {fileID: 7162218299418082774, guid: 4d03a361a90ec6046a28e08d749d54be,
+      type: 3}
     thisHyperlink: {fileID: 0}
     onClickEvent:
       m_PersistentCalls:
@@ -1601,7 +1603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneHandler: {fileID: 368026985}
   resultSequence: 0
-  indexProject: 0
+  indexProject: 1
 --- !u!1 &414101689
 GameObject:
   m_ObjectHideFlags: 0
