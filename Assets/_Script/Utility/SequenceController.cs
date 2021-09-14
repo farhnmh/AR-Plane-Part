@@ -26,7 +26,9 @@ public class SequencesData
     public GameObject sequenceAnimation;
     public Button thisHyperlink;
     public UnityEvent onClickEvent;
+    public UnityEvent onClickObject;
     public bool hyperlink;
+    public bool clickedObject;
 }
 
 public class SequenceController : MonoBehaviour
@@ -45,7 +47,7 @@ public class SequenceController : MonoBehaviour
     public GameObject objectSpawnParent;
     public Button button;
     private int sequenceLength;
-
+    
     public GameObject nextButton;
     public GameObject prevButton;
 
@@ -69,6 +71,11 @@ public class SequenceController : MonoBehaviour
     {
         if (button != null)
             button.onClick.AddListener(sequencesDatas[sequenceNow].onClickEvent.Invoke);
+
+        if (sequencesDatas[sequenceNow].clickedObject){
+            objectSpawnParent.transform.GetChild(0).gameObject.GetComponent<ModelObjectOnclickEventHandler>().onClickEvent =
+                sequencesDatas[sequenceNow].onClickObject;
+        }
     }
 
     void ClearAllContent()
@@ -192,3 +199,4 @@ public class SequenceController : MonoBehaviour
         }
     }
 }
+    

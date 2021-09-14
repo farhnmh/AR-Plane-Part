@@ -8,18 +8,6 @@ public class ModelObjectSpawner : MonoBehaviour
 
     private GameObject spawnedObject;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void BackToSelection()
     {
         Destroy(spawnedObject);

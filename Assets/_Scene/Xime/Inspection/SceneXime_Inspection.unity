@@ -1117,7 +1117,7 @@ MonoBehaviour:
       a conditional inpection. Refer to the applicable Maintenance Manual, Chapter
       5.
     additionDetails: 
-    sequenceAnimation: {fileID: 155944254871054705, guid: cfcf92af411de5c479a4056c6d4823bb,
+    sequenceAnimation: {fileID: 725812473780540248, guid: e9a018128533b524c9d9a1f4211c3268,
       type: 3}
     thisHyperlink: {fileID: 0}
     onClickEvent:
@@ -1145,7 +1145,33 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 368026986}
+          m_MethodName: GoToScene
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: SceneXime_HSR
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 368026987}
+          m_MethodName: SaveSequence
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     hyperlink: 1
+    clickedObject: 1
   - sequenceTitle: 2
     sequenceType: 0
     sequenceDetails: 2. Review the Airworthiness Limitations Schedule in  the applicable
@@ -1178,7 +1204,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 1
+    clickedObject: 0
   - sequenceTitle: 3
     sequenceType: 0
     sequenceDetails: 3. If you disassemble the mast assembly to find the  cause of
@@ -1212,7 +1242,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 1
+    clickedObject: 0
   - sequenceTitle: 3Note1
     sequenceType: 3
     sequenceDetails: "Wear, damage, and repair limits are provided to determine if
@@ -1225,7 +1259,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3Note2
     sequenceType: 3
     sequenceDetails: 'Only a light finger pressure on the spherical probe is sufficient
@@ -1238,7 +1276,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4
     sequenceType: 0
     sequenceDetails: 4. Examine the parts for defects that can affect serviceability,
@@ -1271,7 +1313,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 1
+    clickedObject: 0
   - sequenceTitle: 5
     sequenceType: 2
     sequenceDetails: '5. Examine the attaching hardware for condition.
@@ -1285,7 +1331,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6
     sequenceType: 0
     sequenceDetails: 6. Do a Total Indicated Runout (TIR) inspection of  the mast
@@ -1318,7 +1368,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 1
+    clickedObject: 0
   - sequenceTitle: 6a
     sequenceType: 0
     sequenceDetails: 'a. As the preferred method, do a mast runout on centers as
@@ -1329,7 +1383,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6a1
     sequenceType: 2
     sequenceDetails: (1) Make sure that the contact areas are clean and free of raised
@@ -1341,7 +1399,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6a2
     sequenceType: 2
     sequenceDetails: (2) With a dial indicator, make sure that it does not exceed
@@ -1353,7 +1415,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6b
     sequenceType: 0
     sequenceDetails: 'b. As an alternate method, do a mast runout on V-blocks as
@@ -1364,7 +1430,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6b1
     sequenceType: 2
     sequenceDetails: (1) Lightly coat the workaid items No. 7 and the V-blocks surfaces,
@@ -1376,7 +1446,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6b1Caution
     sequenceType: 1
     sequenceDetails: MAKE SURE THE CORNERS OF THE WORKAID ITEMS NO. 7 DO NOT TOUCH
@@ -1387,7 +1461,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6b2
     sequenceType: 2
     sequenceDetails: (2) Put one V-block with the two workaid items No. 7 in the
@@ -1399,7 +1477,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6b3
     sequenceType: 2
     sequenceDetails: (3) Place a second V-block under the mast pole at the main bearing
@@ -1411,7 +1493,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6b4
     sequenceType: 2
     sequenceDetails: (4) Slowly rotate the mast pole and make sure, with a dial indicator,
@@ -1424,7 +1510,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 7
     sequenceType: 0
     sequenceDetails: 7. Examine the corrosion protective coating of the parts shown
@@ -1458,7 +1548,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 1
+    clickedObject: 0
   - sequenceTitle: 8
     sequenceType: 0
     sequenceDetails: 8. Do a Non-Destructive Inspection (NDI) of the applicable parts
@@ -1491,7 +1585,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 1
+    clickedObject: 0
   - sequenceTitle: 9
     sequenceType: 0
     sequenceDetails: 9. Refer to the repair section for the applicable repair procedures
@@ -1524,7 +1622,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 1
+    clickedObject: 0
   - sequenceTitle: 10
     sequenceType: 0
     sequenceDetails: 10. If you do not use the parts immediately, refer to the BHT-ALL-SPM,
@@ -1557,7 +1659,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 1
+    clickedObject: 0
   sequenceTextNormal: {fileID: 5616225204930101574, guid: e0d2920d6adf6a341bcfefdd4fe2a08d,
     type: 3}
   sequenceTextCaution: {fileID: 6000075751668427975, guid: eedeb91cefcfc24419b3f7f8aab27eda,

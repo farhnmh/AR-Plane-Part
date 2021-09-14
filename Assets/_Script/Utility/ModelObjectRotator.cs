@@ -48,30 +48,10 @@ public class ModelObjectRotator : MonoBehaviour
             else if (initDistance < currentDistance)
                 ScaleObject(1);
         }
-
-
-        //foreach (Touch touch in Input.touches)
-        //{
-
-        //    if (touch.phase == TouchPhase.Began)
-        //    {
-
-        //    }
-        //    else if (touch.phase == TouchPhase.Moved)
-        //    {
-        //        transform.Rotate(touch.deltaPosition.y * rotationRate,
-        //                         -touch.deltaPosition.x * rotationRate, 0, Space.World);
-        //    }
-        //    else if (touch.phase == TouchPhase.Ended)
-        //    {
-
-        //    }
-        //}
     }
 
     public void ScaleObject(float scaleFactor)
     {
-        //transform.localScale += new Vector3(scaleFactor * scaleRate, scaleFactor * scaleRate, scaleFactor * scaleRate);
         Vector3 targetScale = transform.localScale + new Vector3(scaleFactor * scaleRate, scaleFactor * scaleRate, scaleFactor * scaleRate);
         transform.localScale = Vector3.Lerp(transform.localScale, targetScale, 0.25f);
     }

@@ -28,7 +28,6 @@ public class ContinueLoadSequence : MonoBehaviour
 
     public void SaveSequence()
     {
-        Debug.Log("masuk");
         if (indexProject == 0)
             PlayerPrefs.SetInt("Wira_Sequence", sceneHandler.sequenceNow);
         else if (indexProject == 1)
