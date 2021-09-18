@@ -1370,7 +1370,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 1a
     sequenceType: 0
     sequenceDetails: Corrosion protective coating of the parts is acceptable or restored
@@ -1392,7 +1396,11 @@ MonoBehaviour:
             m_StringArgument: SceneWira_CorrosionProtectiveTreatment
             m_BoolArgument: 0
           m_CallState: 2
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 1
+    clickedObject: 0
   - sequenceTitle: 1b
     sequenceType: 0
     sequenceDetails: Residual magnetism on the applicable parts is less than 3 oersteds
@@ -1414,7 +1422,11 @@ MonoBehaviour:
             m_StringArgument: SceneWira_NonDestructiveInspection
             m_BoolArgument: 0
           m_CallState: 2
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 1
+    clickedObject: 0
   - sequenceTitle: 1caution
     sequenceType: 1
     sequenceDetails: 'DO NOT TOUCH BEARINGS, BARE METAL, OR BLACK OXIDED PARTS WITH
@@ -1429,7 +1441,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2
     sequenceType: 0
     sequenceDetails: 'Assemble the support assembly as follows:'
@@ -1440,7 +1456,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2a
     sequenceType: 2
     sequenceDetails: a. Lubricate the outside diameter of the bearing and the bore
@@ -1452,7 +1472,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2b
     sequenceType: 2
     sequenceDetails: b. Position the aft housing assembly, face down on a support
@@ -1464,7 +1488,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2bCaution
     sequenceType: 1
     sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
@@ -1475,7 +1503,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2c
     sequenceType: 2
     sequenceDetails: "c. Heat the aft housing assembly to a maximum of 275\xB0F (135\xB0C)."
@@ -1486,7 +1518,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2d
     sequenceType: 2
     sequenceDetails: d. Install the bearing into the aft housing assembly with workaid
@@ -1498,7 +1534,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2e
     sequenceType: 2
     sequenceDetails: e. Install the retaining ring
@@ -1509,7 +1549,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2eCaution
     sequenceType: 1
     sequenceDetails: DO NOT ALLOW SOLVENTS TO MAKE CONTACT WITH ELASTOMERIC MATERIAL
@@ -1521,7 +1565,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2f
     sequenceType: 2
     sequenceDetails: f. Clean the bore of the aft housing assembly and the outer
@@ -1533,7 +1581,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2g
     sequenceType: 2
     sequenceDetails: g. Apply a light coat of sealant to the bore of the aft housing
@@ -1545,7 +1597,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2h
     sequenceType: 2
     sequenceDetails: h. Put the aft housing assembly on a support plate on an arbor
@@ -1557,7 +1613,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2i
     sequenceType: 2
     sequenceDetails: i. Press the seal into the bore of the aft housing assembly
@@ -1569,7 +1629,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2j
     sequenceType: 2
     sequenceDetails: j. Lubricate the inner race of the bearing and the mating area
@@ -1581,7 +1645,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2k
     sequenceType: 2
     sequenceDetails: k. Lightly coat the lips of the seal and the seal wear path
@@ -1593,7 +1661,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2kCaution
     sequenceType: 1
     sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
@@ -1605,7 +1677,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2l
     sequenceType: 2
     sequenceDetails: "l. Heat the inner race of the bearing to a\vmaximum of 275\xB0F
@@ -1617,7 +1693,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2m
     sequenceType: 2
     sequenceDetails: m. Install workaid item No. 1 on a support plate on an arbor
@@ -1629,7 +1709,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2n
     sequenceType: 2
     sequenceDetails: n. Put the adapter into position through the seal and position
@@ -1641,7 +1725,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2o
     sequenceType: 2
     sequenceDetails: o. Press the adapter into the inner race of the bearing
@@ -1652,7 +1740,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2p
     sequenceType: 2
     sequenceDetails: p. Lubricate the new packing with assembly fluid.
@@ -1663,7 +1755,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2q
     sequenceType: 2
     sequenceDetails: q. Install the packing on the reducer.
@@ -1674,7 +1770,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 2r
     sequenceType: 2
     sequenceDetails: r. Install the reducer on the aft housing assembly. Torque the
@@ -1686,7 +1786,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3
     sequenceType: 0
     sequenceDetails: 'Assemble the cap assembly as follows:'
@@ -1697,7 +1801,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3a
     sequenceType: 2
     sequenceDetails: a. Lubricate the outside diameter of the bearing, and the bore
@@ -1709,7 +1817,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3b
     sequenceType: 2
     sequenceDetails: "b. Put the cap assembly on a support plate\von an arbor press
@@ -1721,7 +1833,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3bCaution
     sequenceType: 1
     sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
@@ -1733,7 +1849,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3c
     sequenceType: 2
     sequenceDetails: "c. Heat the cap assembly to a maximum of 275\xB0F (135\xB0C)"
@@ -1744,7 +1864,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3d
     sequenceType: 2
     sequenceDetails: d. Press the bearing into the cap assembly with workaid item
@@ -1756,7 +1880,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3e
     sequenceType: 4
     sequenceDetails: 'e. For the seal Pre TB 206-95-159, install the seal in the
@@ -1769,7 +1897,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3eCaution
     sequenceType: 1
     sequenceDetails: DO NOT ALLOW SOLVENTS TO MAKE CONTACT WITH ELASTOMERIC MATERIAL
@@ -1781,7 +1913,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3e1
     sequenceType: 2
     sequenceDetails: "1. Clean the outside diameter of the new\vseal and the bore
@@ -1793,7 +1929,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3e2
     sequenceType: 2
     sequenceDetails: "2. Apply a light coat of sealant to\v the outer diameter of
@@ -1805,7 +1945,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3e3
     sequenceType: 2
     sequenceDetails: 3. Put the cap assembly on a support plate on an arbor press
@@ -1817,7 +1961,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3e4
     sequenceType: 2
     sequenceDetails: "4. Put the seal over the bore of the cap assembly. Put workaid
@@ -1829,7 +1977,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3e4Caution
     sequenceType: 1
     sequenceDetails: 'DO NOT ALLOW SOLVENTS TO MAKE CONTACT WITH ELASTOMERIC MATERIAL
@@ -1843,7 +1995,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3e5
     sequenceType: 2
     sequenceDetails: "5. Fill the gap at the mating line between\vthe seal outside
@@ -1855,7 +2011,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3e6
     sequenceType: 2
     sequenceDetails: "6. Clean the excess sealant from the\vretaining ring groove
@@ -1867,7 +2027,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3e7
     sequenceType: 2
     sequenceDetails: 7. Install the retaining ring.
@@ -1878,7 +2042,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3e7Caution
     sequenceType: 1
     sequenceDetails: 'DO NOT ALLOW SEALANT TO MAKE CONTACT WITH ELASTOMERIC MATERIAL
@@ -1892,7 +2060,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 3e8
     sequenceType: 2
     sequenceDetails: 8. Overcoat the retaining ring and the face of the seal with
@@ -1904,7 +2076,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4
     sequenceType: 0
     sequenceDetails: '4. Assemble the outer race shaft assembly as follows:'
@@ -1915,7 +2091,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4a
     sequenceType: 2
     sequenceDetails: a. Lubricate the bore of the outer race shaft and bearing with
@@ -1927,7 +2107,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4b
     sequenceType: 2
     sequenceDetails: b. Put the outer race shaft on a support plate on an arbor press
@@ -1939,7 +2123,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4bCaution
     sequenceType: 1
     sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
@@ -1951,7 +2139,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4c
     sequenceType: 2
     sequenceDetails: "c. Heat the outer race shaft to a maximum of 275\xB0F (135\xB0C)."
@@ -1962,7 +2154,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4d
     sequenceType: 2
     sequenceDetails: d. Put the bearing inside the bore of the outer race shaft with
@@ -1974,7 +2170,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4e
     sequenceType: 2
     sequenceDetails: "e. Press the bearing in the bore of the outer\vrace shaft with
@@ -1986,7 +2186,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4f
     sequenceType: 2
     sequenceDetails: f. Install the retaining ring.
@@ -1997,7 +2201,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4g
     sequenceType: 2
     sequenceDetails: g. Examine the clutch assembly to make sure that all sprags
@@ -2009,7 +2217,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4h
     sequenceType: 2
     sequenceDetails: h. Clean the clutch assembly and the mating area in the outer
@@ -2021,7 +2233,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4i
     sequenceType: 2
     sequenceDetails: "i. Lubricate the clutch assembly and the\vouter race shaft
@@ -2033,7 +2249,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4iCaution
     sequenceType: 1
     sequenceDetails: MAKE SURE THE ARROW ETCHED ON THE CAGE FLANGE OF THE CLUTCH
@@ -2046,7 +2266,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4iNote
     sequenceType: 3
     sequenceDetails: A packing of 2.5 inches (63 mm) in diameter may be put around
@@ -2058,7 +2282,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4j
     sequenceType: 2
     sequenceDetails: "j. Hand press the clutch assembly into the\vouter race shaft.
@@ -2071,7 +2299,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4k
     sequenceType: 2
     sequenceDetails: k. Lubricate the plate with lubricating oil
@@ -2082,7 +2314,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4l
     sequenceType: 2
     sequenceDetails: l. Install the plate in the outer race shaft with the chamfered
@@ -2094,7 +2330,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4m
     sequenceType: 2
     sequenceDetails: m. Lubricate the inside diameter of the outer race shaft and
@@ -2106,7 +2346,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4n
     sequenceType: 2
     sequenceDetails: n. Position the outer race shaft in the chamfered inside diameter
@@ -2118,7 +2362,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4nCaution
     sequenceType: 1
     sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
@@ -2130,7 +2378,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4o
     sequenceType: 2
     sequenceDetails: "o. Heat the outer race shaft to a maximum of 275\xB0F (135\xB0C)."
@@ -2141,7 +2393,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4p
     sequenceType: 2
     sequenceDetails: p. Press the bearing into the bore of the outer race shaft with
@@ -2153,7 +2409,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4q
     sequenceType: 2
     sequenceDetails: q. Install the retaining ring.
@@ -2164,7 +2424,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4qNote1
     sequenceType: 3
     sequenceDetails: If the freewheel assembly is equipped with inner race shaft
@@ -2176,7 +2440,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 4qNote2
     sequenceType: 3
     sequenceDetails: Make sure that the vent valve housing 206-040-249-001 was modified
@@ -2188,7 +2456,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 5
     sequenceType: 0
     sequenceDetails: 'Install the plug or the vent valve housing as applicable, as
@@ -2200,7 +2472,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 5a
     sequenceType: 2
     sequenceDetails: a. Lubricate the new packing with assembly fluid and install
@@ -2212,7 +2488,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 5b
     sequenceType: 2
     sequenceDetails: b. Install the plug or vent valve housing, as applicable, into
@@ -2224,7 +2504,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 5c
     sequenceType: 2
     sequenceDetails: c. Install the retaining ring.
@@ -2235,7 +2519,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6
     sequenceType: 0
     sequenceDetails: 'Assemble the freewheel shaft assembly as follows:'
@@ -2246,7 +2534,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6a
     sequenceType: 2
     sequenceDetails: a. Put the inner race shaft vertically on a table with the flange
@@ -2258,7 +2550,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6b
     sequenceType: 4
     sequenceDetails: 'b. For freewheel assembly Post TB 206-95-159, install the cap
@@ -2272,7 +2568,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6b1
     sequenceType: 2
     sequenceDetails: 1. Lubricate all race surfaces of the inner race shaft with
@@ -2284,7 +2584,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6b2
     sequenceType: 2
     sequenceDetails: (2) Remove and discard the protective cap from the seal.
@@ -2295,7 +2599,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6b3
     sequenceType: 2
     sequenceDetails: (3) Apply a light coat of lubricating oil to the lips of the
@@ -2307,7 +2615,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6b4
     sequenceType: 2
     sequenceDetails: (4) Carefully lower the cap assembly over the inner race shaft
@@ -2319,7 +2631,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6d
     sequenceType: 2
     sequenceDetails: d. Lubricate all surfaces inside the outer race shaft with lubricating
@@ -2331,7 +2647,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6e
     sequenceType: 2
     sequenceDetails: e. Insert the inner race shaft onto the outer race shaft.
@@ -2342,7 +2662,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6f
     sequenceType: 2
     sequenceDetails: f. To facilitate the engagement of the sprag over the races
@@ -2355,7 +2679,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6g
     sequenceType: 2
     sequenceDetails: g. Put the chamfered edge of workaid item No. 4 against the
@@ -2367,7 +2695,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6gCaution
     sequenceType: 1
     sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
@@ -2379,7 +2711,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6h
     sequenceType: 2
     sequenceDetails: "h. Heat the outer race shaft to a maximum of 275\xB0F (135\xB0C)."
@@ -2390,7 +2726,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 6i
     sequenceType: 2
     sequenceDetails: i. Press the inner race shaft into the outer race shaft.
@@ -2401,7 +2741,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 7
     sequenceType: 0
     sequenceDetails: '7. Do an operational check of the clutch assembly as follows:'
@@ -2412,7 +2756,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 7a
     sequenceType: 2
     sequenceDetails: a. Hold the flange of the inner race shaft and rotate the outer
@@ -2425,7 +2773,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 7b
     sequenceType: 2
     sequenceDetails: b. Hold the flange of the inner race shaft and rotate the outer
@@ -2438,7 +2790,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 7c
     sequenceType: 0
     sequenceDetails: c. If the clutch assembly does not operate correctly, disassemble
@@ -2461,7 +2817,11 @@ MonoBehaviour:
             m_StringArgument: SceneWira_ClutchDanger
             m_BoolArgument: 0
           m_CallState: 2
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 1
+    clickedObject: 0
   - sequenceTitle: 7d
     sequenceType: 0
     sequenceDetails: "d. Determine the cause of the incorrect operation of the clutch
@@ -2474,7 +2834,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 7e
     sequenceType: 0
     sequenceDetails: e. Correct the causes for the incorrect operation of the clutch
@@ -2487,7 +2851,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 8
     sequenceType: 0
     sequenceDetails: '8. Assemble the housing assembly as follows :'
@@ -2498,7 +2866,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 8a
     sequenceType: 2
     sequenceDetails: a. Lubricate the new packing with assembly fluid. Install the
@@ -2511,7 +2883,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 8b
     sequenceType: 2
     sequenceDetails: b.  Install the packing on the self-closing valve and install
@@ -2524,7 +2900,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 8c
     sequenceType: 2
     sequenceDetails: c. Secure the self-closing valve to the housing assembly or
@@ -2537,7 +2917,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 8cCaution
     sequenceType: 1
     sequenceDetails: DO NOT EXCEED THE MAXIMUM TEMPERATURE WHEN YOU HEAT THE PART
@@ -2548,7 +2932,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 8h
     sequenceType: 2
     sequenceDetails: "h. Heat the housing assembly to a maximum of 275\xB0 (135\xB0C)."
@@ -2559,7 +2947,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 8i
     sequenceType: 2
     sequenceDetails: i. Install the ring inside the housing assembly and make sure
@@ -2571,7 +2963,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 9
     sequenceType: 0
     sequenceDetails: "9. Build up the freewheel assembly as follows :\r"
@@ -2582,7 +2978,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 9Note
     sequenceType: 3
     sequenceDetails: 'If you do not install the freewheel assembly on the engine
@@ -2597,7 +2997,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 9a
     sequenceType: 2
     sequenceDetails: a. Apply lubricating oil to the freewheel shaft assembly.
@@ -2608,7 +3012,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 9b
     sequenceType: 2
     sequenceDetails: b. Install the housing assembly onto the freewheel shaft assembly
@@ -2620,7 +3028,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 9bNote
     sequenceType: 3
     sequenceDetails: Do not tighten the nuts at this time, they will have to be removed
@@ -2632,7 +3044,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 9c
     sequenceType: 2
     sequenceDetails: c. For the freewheel assemblies 206-040-230, secure the housing
@@ -2644,7 +3060,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 9d
     sequenceType: 2
     sequenceDetails: d. Apply lubricating oil to the inner race shaft end splines
@@ -2656,7 +3076,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 9e
     sequenceType: 2
     sequenceDetails: e. Install the support assembly onto the freewheel shaft assembly.
@@ -2667,7 +3091,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 9eNote
     sequenceType: 3
     sequenceDetails: Do not tighten the nut now, it will have to be removed for the
@@ -2678,7 +3106,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 9f
     sequenceType: 2
     sequenceDetails: f. Install the washer and the nut on the inner shaft of the
@@ -2690,7 +3122,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 10
     sequenceType: 2
     sequenceDetails: 10. Clean all excess lubricant from the freewheel assembly with
@@ -2702,7 +3138,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   - sequenceTitle: 11
     sequenceType: 0
     sequenceDetails: 11. Update the Historical Service Records with the overhaul
@@ -2713,7 +3153,11 @@ MonoBehaviour:
     onClickEvent:
       m_PersistentCalls:
         m_Calls: []
+    onClickObject:
+      m_PersistentCalls:
+        m_Calls: []
     hyperlink: 0
+    clickedObject: 0
   sequenceTextNormal: {fileID: 5616225204930101574, guid: e0d2920d6adf6a341bcfefdd4fe2a08d,
     type: 3}
   sequenceTextCaution: {fileID: 6000075751668427975, guid: eedeb91cefcfc24419b3f7f8aab27eda,
