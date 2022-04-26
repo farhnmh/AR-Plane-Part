@@ -1,5 +1,5 @@
 # AR-Plane-Part
-This project is a continuation of the existing project in https://gitlab.com/rezafaizats/ar-plane-parts
+This project is a continuation of the existing project in https://gitlab.com/rezafaizats/ar-plane-parts<br>
 This application will provide an introduction and knowledge to the user regarding some of the components that exist in the helicopter. Starting from the stages of assembly, maintenance, use, to disassembly. This application was developed using AR technology, which will display 3-dimensional assets with text descriptions that help user understanding.
 1. Genre: Educational App
 2. Techology Used: AR Vuforia
